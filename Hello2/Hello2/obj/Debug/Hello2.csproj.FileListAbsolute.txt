@@ -1,0 +1,11 @@
+D:\Code\Hello2\Hello2\bin\Debug\Hello2.exe.config
+D:\Code\Hello2\Hello2\bin\Debug\Hello2.exe
+D:\Code\Hello2\Hello2\bin\Debug\Hello2.pdb
+D:\Code\Hello2\Hello2\obj\Debug\Hello2.csproj.AssemblyReference.cache
+D:\Code\Hello2\Hello2\obj\Debug\Hello2.csproj.SuggestedBindingRedirects.cache
+D:\Code\Hello2\Hello2\obj\Debug\Hello2.frmMain.resources
+D:\Code\Hello2\Hello2\obj\Debug\Hello2.Properties.Resources.resources
+D:\Code\Hello2\Hello2\obj\Debug\Hello2.csproj.GenerateResource.cache
+D:\Code\Hello2\Hello2\obj\Debug\Hello2.csproj.CoreCompileInputs.cache
+D:\Code\Hello2\Hello2\obj\Debug\Hello2.exe
+D:\Code\Hello2\Hello2\obj\Debug\Hello2.pdb

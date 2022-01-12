@@ -1,0 +1,11 @@
+D:\Code\Maths\Maths\bin\Debug\Maths.exe.config
+D:\Code\Maths\Maths\bin\Debug\Maths.exe
+D:\Code\Maths\Maths\bin\Debug\Maths.pdb
+D:\Code\Maths\Maths\obj\Debug\Maths.csproj.AssemblyReference.cache
+D:\Code\Maths\Maths\obj\Debug\Maths.csproj.SuggestedBindingRedirects.cache
+D:\Code\Maths\Maths\obj\Debug\Maths.frmMain.resources
+D:\Code\Maths\Maths\obj\Debug\Maths.Properties.Resources.resources
+D:\Code\Maths\Maths\obj\Debug\Maths.csproj.GenerateResource.cache
+D:\Code\Maths\Maths\obj\Debug\Maths.csproj.CoreCompileInputs.cache
+D:\Code\Maths\Maths\obj\Debug\Maths.exe
+D:\Code\Maths\Maths\obj\Debug\Maths.pdb
