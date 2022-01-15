@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "bc75e771-2bd9-4690-9c70-a2d257d773c7": {
+      "ProjectGuid": "bc75e771-2bd9-4690-9c70-a2d257d773c7",
+      "DisplayName": "ImageViewer",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

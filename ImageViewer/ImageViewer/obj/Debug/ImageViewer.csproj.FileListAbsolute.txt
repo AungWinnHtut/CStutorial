@@ -1,0 +1,11 @@
+D:\CStutorial\ImageViewer\ImageViewer\bin\Debug\ImageViewer.exe.config
+D:\CStutorial\ImageViewer\ImageViewer\bin\Debug\ImageViewer.exe
+D:\CStutorial\ImageViewer\ImageViewer\bin\Debug\ImageViewer.pdb
+D:\CStutorial\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.AssemblyReference.cache
+D:\CStutorial\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\ImageViewer\ImageViewer\obj\Debug\ImageViewer.frmPhoto.resources
+D:\CStutorial\ImageViewer\ImageViewer\obj\Debug\ImageViewer.Properties.Resources.resources
+D:\CStutorial\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.GenerateResource.cache
+D:\CStutorial\ImageViewer\ImageViewer\obj\Debug\ImageViewer.csproj.CoreCompileInputs.cache
+D:\CStutorial\ImageViewer\ImageViewer\obj\Debug\ImageViewer.exe
+D:\CStutorial\ImageViewer\ImageViewer\obj\Debug\ImageViewer.pdb
