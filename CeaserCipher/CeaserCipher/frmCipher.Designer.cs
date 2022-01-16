@@ -36,6 +36,7 @@
             this.txtPlain = new System.Windows.Forms.TextBox();
             this.btnEncrypt = new System.Windows.Forms.Button();
             this.btnDecrypt = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -108,11 +109,22 @@
             this.btnDecrypt.UseVisualStyleBackColor = true;
             this.btnDecrypt.Click += new System.EventHandler(this.btnDecrypt_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(401, 150);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(108, 37);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Calculate";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // frmCipher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(402, 248);
+            this.ClientSize = new System.Drawing.Size(718, 248);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.btnDecrypt);
             this.Controls.Add(this.btnEncrypt);
             this.Controls.Add(this.txtPlain);
@@ -138,6 +150,7 @@
         private System.Windows.Forms.TextBox txtPlain;
         private System.Windows.Forms.Button btnEncrypt;
         private System.Windows.Forms.Button btnDecrypt;
+        private System.Windows.Forms.Button button1;
     }
 }
 

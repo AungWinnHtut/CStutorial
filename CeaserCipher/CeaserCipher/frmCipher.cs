@@ -62,6 +62,34 @@ namespace CeaserCipher
             }
             txtPlain .Text = plain[found].ToString();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            txtPlain .Text = Multiply(10).ToString ();  
+        }
+        public static int Multiply(int number)
+        {
+            int digit = 1;
+            int ans = 1;
+            int num = number;
+            if (number < 10)
+            {
+                //do nothing
+            }
+            else
+            {
+                while (num >= 10)
+                {
+                    num = num / 10;
+                    digit++;
+                }
+            }
+            for (int i = 0; i < digit; i++)
+            {
+                ans *= 5;
+            }
+            return ans * number;
+        }
     }
     
 }
