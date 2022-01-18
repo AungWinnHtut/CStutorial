@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "c6645e8e-5d04-49c7-ba3e-767d12c53992": {
+      "ProjectGuid": "c6645e8e-5d04-49c7-ba3e-767d12c53992",
+      "DisplayName": "CeaserCipher",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
