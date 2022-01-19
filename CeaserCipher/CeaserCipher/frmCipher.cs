@@ -13,9 +13,9 @@ namespace CeaserCipher
     public partial class frmCipher : Form
     {
 
-        char[] plain =   {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z'};
-        char[] cipher = {'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' , 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'};
-        int found = 27;
+        char[] plain =   {'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z','*'};
+        char[] cipher = {'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' , 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','*'};
+        int found = 26;
 
         public frmCipher()
         {
@@ -35,32 +35,29 @@ namespace CeaserCipher
 
         private void btnEncrypt_Click(object sender, EventArgs e)
         {
-            string sInput = txtOriginal.Text;
-            char cOrig = sInput .ElementAt(0);
-            for(int i=0;i<26;i++)
+            if(txtOriginal .Text !="")
             {
-                if(cOrig ==plain[i])
-                {
-                    found = i;
-                    break;
-                }
+                txtCipher.Text = funStringEncrypt(txtOriginal.Text);
             }
-            txtCipher .Text = cipher [found].ToString();
+            else
+            {
+                MessageBox.Show("Please Enter Text to Encrypt", "No Data!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            
+            
         }
 
         private void btnDecrypt_Click(object sender, EventArgs e)
         {
-            string sInput = txtCipher.Text;
-            char cOrig = sInput.ElementAt(0);
-            for (int i = 0; i < 26; i++)
+            if (txtOriginal.Text != "")
             {
-                if (cOrig == cipher[i])
-                {
-                    found = i;
-                    break;
-                }
+                txtPlain.Text = funStringDecrypt(txtCipher.Text);
             }
-            txtPlain .Text = plain[found].ToString();
+            else
+            {
+                MessageBox.Show("Please Enter Text to Decrypt", "No Data!", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+           
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -90,6 +87,69 @@ namespace CeaserCipher
             }
             return ans * number;
         }
+
+        //output-datatype   fun-name(datatpye1 data1, .....){  return outputdata;}
+        public char funCharEncrypt(char cPlain)
+        {
+            found = 26; //important to reset to *
+            char cEncrypted = '\0';
+            for (int i = 0; i < 26; i++)
+            {
+                if (cPlain == plain[i])
+                {
+                    found = i;
+                    break;
+                }
+            }
+           cEncrypted = cipher[found];
+            return cEncrypted;
+        }
+
+        char funCharDecrypt(char cEncrypted)
+        {
+            found = 26; //important to reset to *
+            char cPlain = '\0';
+            for (int i = 0; i < 26; i++)
+            {
+                if (cEncrypted == cipher[i])
+                {
+                    found = i;
+                    break;
+                }
+            }
+            cPlain = plain[found];
+            return cPlain;
+        }
+
+        string funStringEncrypt(string sInput)
+        {       
+            char[] caOrig;
+            char[] caEncrypted;
+            caOrig = sInput.ToLower().ToCharArray();                
+            caEncrypted = new char[caOrig.Length];
+
+            for (int i = 0; i < caOrig.Length; i++)
+            {
+                caEncrypted[i] = funCharEncrypt(caOrig[i]);
+            }
+           return new string(caEncrypted);
+        }
+
+        string funStringDecrypt(string sInput)
+        {
+            char[] caEncrypted;
+            char[] caDecrypted;
+            caEncrypted = sInput.ToLower().ToCharArray();
+            caDecrypted = new char[caEncrypted.Length];
+
+            for (int i = 0; i < caEncrypted.Length; i++)
+            {
+                caDecrypted[i] = funCharDecrypt(caEncrypted[i]);
+            }
+            return new string(caDecrypted);
+        }
+
+
     }
     
 }

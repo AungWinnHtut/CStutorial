@@ -52,7 +52,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(162, 54);
+            this.label2.Location = new System.Drawing.Point(261, 54);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(55, 20);
             this.label2.TabIndex = 1;
@@ -61,7 +61,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(261, 54);
+            this.label3.Location = new System.Drawing.Point(461, 54);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(43, 20);
             this.label3.TabIndex = 2;
@@ -72,26 +72,26 @@
             // 
             this.txtOriginal.Location = new System.Drawing.Point(67, 94);
             this.txtOriginal.Name = "txtOriginal";
-            this.txtOriginal.Size = new System.Drawing.Size(57, 26);
+            this.txtOriginal.Size = new System.Drawing.Size(157, 26);
             this.txtOriginal.TabIndex = 3;
             // 
             // txtCipher
             // 
-            this.txtCipher.Location = new System.Drawing.Point(155, 94);
+            this.txtCipher.Location = new System.Drawing.Point(265, 94);
             this.txtCipher.Name = "txtCipher";
-            this.txtCipher.Size = new System.Drawing.Size(57, 26);
+            this.txtCipher.Size = new System.Drawing.Size(157, 26);
             this.txtCipher.TabIndex = 4;
             // 
             // txtPlain
             // 
-            this.txtPlain.Location = new System.Drawing.Point(251, 94);
+            this.txtPlain.Location = new System.Drawing.Point(465, 94);
             this.txtPlain.Name = "txtPlain";
-            this.txtPlain.Size = new System.Drawing.Size(57, 26);
+            this.txtPlain.Size = new System.Drawing.Size(157, 26);
             this.txtPlain.TabIndex = 5;
             // 
             // btnEncrypt
             // 
-            this.btnEncrypt.Location = new System.Drawing.Point(79, 149);
+            this.btnEncrypt.Location = new System.Drawing.Point(67, 149);
             this.btnEncrypt.Name = "btnEncrypt";
             this.btnEncrypt.Size = new System.Drawing.Size(97, 39);
             this.btnEncrypt.TabIndex = 6;
@@ -101,7 +101,7 @@
             // 
             // btnDecrypt
             // 
-            this.btnDecrypt.Location = new System.Drawing.Point(191, 149);
+            this.btnDecrypt.Location = new System.Drawing.Point(265, 148);
             this.btnDecrypt.Name = "btnDecrypt";
             this.btnDecrypt.Size = new System.Drawing.Size(97, 39);
             this.btnDecrypt.TabIndex = 7;
@@ -111,7 +111,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(401, 150);
+            this.button1.Location = new System.Drawing.Point(465, 148);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(108, 37);
             this.button1.TabIndex = 8;
