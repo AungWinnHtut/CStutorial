@@ -17,11 +17,15 @@ namespace CeaserCipher
         char[] cipher = {'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' , 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j','*'};
         int found = 26;
 
-        public frmCipher()
+        public frmCipher(string title)
         {
             InitializeComponent();
+            this.Text = title;
         }
-
+        public frmCipher()
+        {
+            InitializeComponent();        
+        }
 
         private void label3_Click(object sender, EventArgs e)
         {
@@ -149,7 +153,10 @@ namespace CeaserCipher
             return new string(caDecrypted);
         }
 
+        private void frmCipher_Load(object sender, EventArgs e)
+        {
 
+        }
     }
     
 }

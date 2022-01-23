@@ -9,3 +9,5 @@ D:\CStutorial\CeaserCipher\CeaserCipher\obj\Debug\CeaserCipher.csproj.GenerateRe
 D:\CStutorial\CeaserCipher\CeaserCipher\obj\Debug\CeaserCipher.csproj.CoreCompileInputs.cache
 D:\CStutorial\CeaserCipher\CeaserCipher\obj\Debug\CeaserCipher.exe
 D:\CStutorial\CeaserCipher\CeaserCipher\obj\Debug\CeaserCipher.pdb
+D:\CStutorial\CeaserCipher\CeaserCipher\obj\Debug\CeaserCipher.frmMyanCrypt.resources
+D:\CStutorial\CeaserCipher\CeaserCipher\obj\Debug\CeaserCipher.frmFileEncrypter.resources

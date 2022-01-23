@@ -16,7 +16,7 @@ namespace CeaserCipher
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmCipher());
+            Application.Run(new frmFileEncrypter());
         }
     }
 }

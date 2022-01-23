@@ -52,10 +52,28 @@
     <Compile Include="frmCipher.Designer.cs">
       <DependentUpon>frmCipher.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmFileEncrypter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFileEncrypter.Designer.cs">
+      <DependentUpon>frmFileEncrypter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMyanCrypt.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMyanCrypt.Designer.cs">
+      <DependentUpon>frmMyanCrypt.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmCipher.resx">
       <DependentUpon>frmCipher.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFileEncrypter.resx">
+      <DependentUpon>frmFileEncrypter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMyanCrypt.resx">
+      <DependentUpon>frmMyanCrypt.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
