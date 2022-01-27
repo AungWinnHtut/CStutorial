@@ -1,0 +1,66 @@
+.content {
+  background-color: rgb(172, 247, 33);
+}
+
+.header {
+  color: red;
+  font-family: Arial, Georgia, verdana, sans-serif;
+  font-size: 16pt;
+  font-style: italic;
+  font-weight: bold;
+  /* font-variant: small-caps; */
+  line-height: 100px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+  text-align: center;
+  text-decoration: underline;
+  text-indent: 50px;
+  text-shadow: 2px 2px 15px black;
+  text-transform: lowercase;
+}
+
+.header1 {
+  font: italic small-cap bold 36px/10px Arial, Georgia, sans-serif;
+}
+
+.testblock1 {
+  background-color: orange;
+  background-image: url(assets/logo.jfif);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  height: 600px;
+  border: 5px solid blue;
+  padding: 10px;
+}
+.testblock {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  left: 200px;
+}
+#redbox {
+  width: 400px;
+  height: 400px;
+  background-color: red;
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+#bluebox {
+  width: 200px;
+  height: 100px;
+  background-color: rgb(26, 11, 240);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+
+/* my notes */
+/*
+
+  font: font-style, font-variant, font-weight, font-size, line-height,
+    font-family;
+
+
+
+*/
