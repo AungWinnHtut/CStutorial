@@ -1,0 +1,6 @@
+﻿  functions.cpp
+  Source.cpp
+D:\CStutorial\AofCircles\AofCircles\Source.cpp(19): warning C4305: 'initializing': truncation from 'double' to 'float'
+D:\CStutorial\AofCircles\AofCircles\Source.cpp(24): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Generating Code...
+  AofCircles.vcxproj -> D:\CStutorial\AofCircles\Debug\AofCircles.exe
