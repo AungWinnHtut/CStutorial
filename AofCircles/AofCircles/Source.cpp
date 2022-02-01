@@ -1,4 +1,7 @@
 #include<stdio.h>
+#include<sys/types.h>
+
+
 #define LIMIT 5
 int funLine(int x, int m, int c);
 
