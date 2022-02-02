@@ -18,5 +18,8 @@
     <ClCompile Include="Data1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="oldversion1.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

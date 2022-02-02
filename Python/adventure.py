@@ -1,15 +1,15 @@
 #   This is an Adventure Game about The Digital Sweet Shop
 #   The program was written by Me
-#   Date:
-#   
+#   Date: 03-02-2022
+#   Programmer: Dr. Aung Win Htut
 #
 #   The next few lines give the introduction
-pint("Welcome to the Digital Sweet Shop")
+print("Welcome to the Digital Sweet Shop")
 print()
 #   Hint : fix the print statement above
 print("You have been invited to take part in a competition in the shop.")
 print("You must find the cholote room where you will be asked a question")
-Print("If you get it right you will receive letters which are part of a password and a clue.")
+print("If you get it right you will receive letters which are part of a password and a clue.")
 print()
 #   Hint : fix the print statement above - should Print have a capital 'P'???
 print("You have been invited to take part in a competition in the shop. ")

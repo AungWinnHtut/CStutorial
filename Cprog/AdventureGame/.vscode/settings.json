@@ -1,0 +1,12 @@
+{
+  "files.associations": {
+    "chrono": "cpp",
+    "random": "cpp",
+    "limits": "cpp",
+    "semaphore": "cpp",
+    "valarray": "cpp",
+    "algorithm": "cpp",
+    "streambuf": "cpp",
+    "*.tcc": "cpp"
+  }
+}

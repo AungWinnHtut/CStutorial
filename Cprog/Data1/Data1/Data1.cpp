@@ -4,10 +4,10 @@
 #include<stdlib.h>
 void menu(int selection);
 
-char _menu[3][4] = { 
-    {'N','E','W','\0'},
-    {'O','P','E','N'},
-    {'S','A','V','E'}
+char _menu[3][5] = { 
+   "NEW",
+   "OPEN",
+   "SAVE"
 };
 
 int main()
@@ -17,12 +17,12 @@ int main()
 
 
       do{
-          system("cls");
+          printf("\033[2J\033[1;1H");
            menu(selection);
            ch = _getch();
            switch (ch) {
-                case 72:  selection = (selection != 0) ? --selection : 2; break; //up
-                case 80:   selection = (selection != 2) ? ++selection : 0; break;  //down  selection = ++selection;
+                case 75:  selection = (selection != 0) ? --selection : 2; break; //up
+                case 77:   selection = (selection != 2) ? ++selection : 0; break;  //down  selection = ++selection;
                 case 27:   exit(0);
            }
       } while (ch != 27);     
@@ -32,17 +32,22 @@ int main()
 
 void menu(int selection)
 {
+   
     for (int row = 0; row < 3; row++)
-    {
-        if (row == selection)
-            printf("    #   ");        
-        else
-            printf("        ");
-     
+    {         
         for (int col= 0; col < 4; col++)
         {
             putchar(_menu[row][col]);
         }
-        printf("\n");
+        printf("    ");
     }
-}
+    printf("\n");
+
+       
+    for (int i = 1; i <= selection*2; i++)
+    {
+        printf("   ");
+    }
+    //NEW ssss OPEN ssss SAVE
+    //123 4567 8901 2345 6789
+} //1-3 8-14 16-4

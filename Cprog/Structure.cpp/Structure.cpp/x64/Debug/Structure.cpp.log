@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\CStutorial\Cprog\Structure.cpp\Structure.cpp\Source.cpp(22,29): warning C4305: 'argument': truncation from 'double' to 'float'
+D:\CStutorial\Cprog\Structure.cpp\Structure.cpp\Source.cpp(21,12): warning C4101: 'kunits': unreferenced local variable
+D:\CStutorial\Cprog\Structure.cpp\Structure.cpp\Source.cpp(20,6): warning C4101: 'i': unreferenced local variable
+D:\CStutorial\Cprog\Structure.cpp\Structure.cpp\Source.cpp(29,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Structure.cpp.vcxproj -> D:\CStutorial\Cprog\Structure.cpp\x64\Debug\Structure.cpp.exe

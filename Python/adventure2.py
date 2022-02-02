@@ -1,7 +1,7 @@
 #   This is an Adventure Game about The Digital Sweet Shop
 #   The program was written by Me
-#   Date:
-#   
+#   Date: 03-02-2022
+#   Programmer: Dr. Aung Win Htut
 #
 #   The next few lines give the introduction
 print("Welcome to the Digital Sweet Shop")
@@ -23,20 +23,20 @@ print("W E L C O M E    T O     T H E   D I G I T A L   S W E E T   S H O P ")
 print()
 print()
 
-#Set player lives and chocolate
-playerlives=3
-chocolate =2 
+# Set player lives and chocolate
+playerlives = 3
+chocolate = 2
 
-#Enter player details
+# Enter player details
 playername = input("What is your name? ")
-print("Welcome "+playername)
+print("Welcome " + playername)
 print()
 playerage = int(input("What age are you?"))
-print("You are aged "+str(playerage))
+print("You are aged " + str(playerage))
 print()
 
 print("You can give the two people in the story names")
 ownername = input("What name do you want to give the sweet shop owner? ")
-print("You have named the owner "+ownername+" that's a good name!!!")
+print("You have named the owner " + ownername + " that's a good name!!!")
 print()
 print()
