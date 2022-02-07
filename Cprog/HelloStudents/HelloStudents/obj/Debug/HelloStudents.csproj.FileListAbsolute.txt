@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\bin\Debug\HelloStudents.exe.config
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\bin\Debug\HelloStudents.exe
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\bin\Debug\HelloStudents.pdb
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\obj\Debug\HelloStudents.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\obj\Debug\HelloStudents.Form1.resources
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\obj\Debug\HelloStudents.Properties.Resources.resources
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\obj\Debug\HelloStudents.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\obj\Debug\HelloStudents.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\obj\Debug\HelloStudents.exe
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\obj\Debug\HelloStudents.pdb
+D:\CStutorial\Cprog\HelloStudents\HelloStudents\obj\Debug\HelloStudents.csproj.AssemblyReference.cache

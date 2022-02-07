@@ -1,0 +1,6 @@
+﻿  Source.cpp
+D:\CStutorial\Cprog\Hello World\Hello World\Source.cpp(16,8): warning C4101: 'f': unreferenced local variable
+D:\CStutorial\Cprog\Hello World\Hello World\Source.cpp(17,10): warning C4101: 'agag': unreferenced local variable
+D:\CStutorial\Cprog\Hello World\Hello World\Source.cpp(14,6): warning C4101: 'ii': unreferenced local variable
+D:\CStutorial\Cprog\Hello World\Hello World\Source.cpp(17,16): warning C4101: 'mgmg': unreferenced local variable
+  Hello World.vcxproj -> D:\CStutorial\Cprog\Hello World\x64\Debug\Hello World.exe

@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\CStutorial\Cprog\FileIOw\FileIOw\Source.cpp(13,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  FileIOw.vcxproj -> D:\CStutorial\Cprog\FileIOw\x64\Debug\FileIOw.exe
