@@ -19,7 +19,9 @@ namespace _2022020701HelloWorld
 
         private void btnHide_Click(object sender, EventArgs e)
         {
-            picMyFamilyPhoto .Visible = false;
+            //to hide phto
+            //visible prop = false
+            picMyFamilyPhoto.Visible = false;
         }
 
         private void btnShow_Click(object sender, EventArgs e)
