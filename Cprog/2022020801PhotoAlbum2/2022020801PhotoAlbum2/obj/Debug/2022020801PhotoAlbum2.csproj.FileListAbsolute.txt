@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\bin\Debug\2022020801PhotoAlbum2.exe.config
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\bin\Debug\2022020801PhotoAlbum2.exe
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\bin\Debug\2022020801PhotoAlbum2.pdb
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\obj\Debug\2022020801PhotoAlbum2.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\obj\Debug\2022020801PhotoAlbum2.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\obj\Debug\_2022020801PhotoAlbum2.frmPhotoAlbum.resources
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\obj\Debug\_2022020801PhotoAlbum2.Properties.Resources.resources
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\obj\Debug\2022020801PhotoAlbum2.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\obj\Debug\2022020801PhotoAlbum2.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\obj\Debug\2022020801PhotoAlbum2.exe
+D:\CStutorial\Cprog\2022020801PhotoAlbum2\2022020801PhotoAlbum2\obj\Debug\2022020801PhotoAlbum2.pdb

@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\bin\Debug\2022021001BasicTools.exe.config
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\bin\Debug\2022021001BasicTools.exe
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\bin\Debug\2022021001BasicTools.pdb
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\obj\Debug\2022021001BasicTools.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\obj\Debug\2022021001BasicTools.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\obj\Debug\_2022021001BasicTools.frmMain.resources
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\obj\Debug\_2022021001BasicTools.Properties.Resources.resources
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\obj\Debug\2022021001BasicTools.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\obj\Debug\2022021001BasicTools.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\obj\Debug\2022021001BasicTools.exe
+D:\CStutorial\Cprog\2022021001BasicTools\2022021001BasicTools\obj\Debug\2022021001BasicTools.pdb
