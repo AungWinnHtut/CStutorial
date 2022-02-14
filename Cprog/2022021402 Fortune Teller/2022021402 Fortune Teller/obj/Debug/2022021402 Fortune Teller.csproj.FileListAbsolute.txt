@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\bin\Debug\2022021402 Fortune Teller.exe.config
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\bin\Debug\2022021402 Fortune Teller.exe
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\bin\Debug\2022021402 Fortune Teller.pdb
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\obj\Debug\2022021402 Fortune Teller.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\obj\Debug\2022021402 Fortune Teller.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\obj\Debug\_2022021402_Fortune_Teller.frmFortuneTeller.resources
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\obj\Debug\_2022021402_Fortune_Teller.Properties.Resources.resources
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\obj\Debug\2022021402 Fortune Teller.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\obj\Debug\2022021402 Fortune Teller.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\obj\Debug\2022021402 Fortune Teller.exe
+D:\CStutorial\Cprog\2022021402 Fortune Teller\2022021402 Fortune Teller\obj\Debug\2022021402 Fortune Teller.pdb

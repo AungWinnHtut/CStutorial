@@ -33,15 +33,16 @@ if playerage >= 8 and playerage <= 12:
     enterroom = input("Will you enter the room? : ")
 
     if enterroom == "Y":
-        print("You have reached the top f the stairs and you can go ri!")
+        print("You have reached the top f the stairs and you can go right or left")
         direction = input("Left or Right? : ")
         if direction == "R":
-            print("Ahh there is a hole! You are dead now!")
+            print("You have fallen through the hole in the floor and lost a life - ")
+            print(" you must start again!")
         if direction == "L":
-            print("You are now at the Chocolate room!")
+            print("You are standing at the door of the Chocolate room!")
 
     else:
-        print("You are a coward!")
+        print("You are a coward!!!...Goodbye")
 
 
 else:
