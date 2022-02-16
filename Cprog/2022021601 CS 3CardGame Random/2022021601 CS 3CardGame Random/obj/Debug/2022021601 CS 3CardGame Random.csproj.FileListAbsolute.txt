@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\bin\Debug\2022021601 CS 3CardGame Random.exe.config
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\bin\Debug\2022021601 CS 3CardGame Random.exe
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\bin\Debug\2022021601 CS 3CardGame Random.pdb
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\obj\Debug\2022021601 CS 3CardGame Random.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\obj\Debug\_2022021601_CS_3CardGame_Random.frmThreeCard.resources
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\obj\Debug\_2022021601_CS_3CardGame_Random.Properties.Resources.resources
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\obj\Debug\2022021601 CS 3CardGame Random.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\obj\Debug\2022021601 CS 3CardGame Random.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\obj\Debug\2022021601 CS 3CardGame Random.exe
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\obj\Debug\2022021601 CS 3CardGame Random.pdb
+D:\CStutorial\Cprog\2022021601 CS 3CardGame Random\2022021601 CS 3CardGame Random\obj\Debug\2022021601 CS 3CardGame Random.csproj.AssemblyReference.cache

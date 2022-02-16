@@ -37,36 +37,113 @@ namespace _2022021501_Three_Card
 
         private void picOne_Click(object sender, EventArgs e)
         {
-            picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\king.png");
-            picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
-            picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+            Random rnd = new Random();
+            int iChoice = rnd.Next(1, 4);
+
+            if (iChoice == 1)
+            {
+                picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\king.png");
+                picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                txtBaydin.Text = "King, သင်ကံကောင်းနေသည်";
+            }
+
+            if (iChoice == 2)
+            {
+                picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\queen.jpg");
+                picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                txtBaydin.Text = "Queen, မဆိုးပါဘူး";
+            }
+            if (iChoice == 3)
+            {
+                picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\fool.jpg");
+                picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                txtBaydin.Text = "Fool, သင်ကံဆိုးနေသည်";
+            }
+
+
             picOne.Enabled = false;
             picTwo.Enabled = false;
             picThree.Enabled = false;
-            txtBaydin.Text = "King, သင်ကံကောင်းနေသည်";
+           
            
         }
 
         private void picTwo_Click(object sender, EventArgs e)
         {
-            picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\queen.jpg");
-            picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
-            picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+            Random rnd = new Random();
+            int iChoice = rnd.Next(1, 4);
+
+            if (iChoice == 1)
+            {
+                picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\king.png");
+                picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                txtBaydin.Text = "King, သင်ကံကောင်းနေသည်";
+            }
+
+            if (iChoice == 2)
+            {
+                picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\queen.jpg");
+                picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                txtBaydin.Text = "Queen, မဆိုးပါဘူး";
+            }
+            if (iChoice == 3)
+            {
+                picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\fool.jpg");
+                picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                txtBaydin.Text = "Fool, သင်ကံဆိုးနေသည်";
+            }
+
+
             picOne.Enabled = false;
             picTwo.Enabled = false;
             picThree.Enabled = false;
-            txtBaydin.Text = "Queen, မဆိုးပါဘူး";
+
+
         }
 
         private void picThree_Click(object sender, EventArgs e)
         {
-            picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\fool.jpg");
-            picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
-            picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+            // 1 -3 ကြား random vlue တစ်ခု ဖန်တီး
+            Random rnd = new Random();
+            int iChoice = rnd.Next(1, 4);
+
+            // 1 ဖြစ်ရင် ဒါတွေလုပ်မယ်
+            if (iChoice == 1)
+            {
+                picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\king.png");
+                picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                txtBaydin.Text = "King, သင်ကံကောင်းနေသည်";
+            }
+
+            if (iChoice == 2)
+            {
+                picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\queen.jpg");
+                picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                txtBaydin.Text = "Queen, မဆိုးပါဘူး";
+            }
+            if (iChoice == 3)
+            {
+                picThree.Image = Image.FromFile("D:\\CStutorial\\baydin\\fool.jpg");
+                picTwo.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                picOne.Image = Image.FromFile("D:\\CStutorial\\baydin\\back.png");
+                txtBaydin.Text = "Fool, သင်ကံဆိုးနေသည်";
+            }
+
+
+            // User interactive လုပ်လို့မရအောင် enable false ပေးလိုက်မယ်
             picOne.Enabled = false;
             picTwo.Enabled = false;
             picThree.Enabled = false;
-            txtBaydin.Text = "Fool, သင်ကံဆိုးနေသည်";
+
+
         }
 
         private void btnReset_Click(object sender, EventArgs e)

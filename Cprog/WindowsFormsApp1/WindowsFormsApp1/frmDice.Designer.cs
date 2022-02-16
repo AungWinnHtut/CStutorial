@@ -1,6 +1,6 @@
 ﻿namespace WindowsFormsApp1
 {
-    partial class Form1
+    partial class frmDice
     {
         /// <summary>
         /// Required designer variable.
@@ -50,15 +50,17 @@
             this.txtDice.TabIndex = 1;
             this.txtDice.Text = "";
             // 
-            // Form1
+            // frmDice
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.DarkSeaGreen;
             this.ClientSize = new System.Drawing.Size(405, 236);
             this.Controls.Add(this.txtDice);
             this.Controls.Add(this.btnDice);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "frmDice";
+            this.Text = "Rolling Dice";
+            this.Load += new System.EventHandler(this.frmDice_Load);
             this.ResumeLayout(false);
 
         }
