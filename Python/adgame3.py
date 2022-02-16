@@ -1,13 +1,13 @@
 #   This is an Adventure Game about The Digital Sweet Shop
 #   The program was written by Me
-#   Date:
-#
+#   Date: 13-02-2022
+#   Programmer: Dr. Aung Win Htut
 #
 #   The next few lines give the introduction
 
 print("Welcome to the Digital Sweet Shop")
 print()
-#   Hint : fix the indentation
+
 print("You have been invited to take part in a competition in the shop.")
 print("You must find the cholote room where you will be asked a question")
 print("If you get it right you will receive letters which are part of a password and a clue.")
@@ -32,14 +32,16 @@ if playerage >= 8 and playerage <= 12:
     robotname = input("Please enter robot name: ")
     enterroom = input("Will you enter the room? : ")
 
-    if enterroom == "Y":
-        print("You have reached the top f the stairs and you can go right or left")
+    if enterroom == "Y" or enterroom == "y":
+        print("You have reached the top of the stairs and you can go right or left")
         direction = input("Left or Right? : ")
-        if direction == "R":
+        if direction == "R" or direction == "r":
             print("You have fallen through the hole in the floor and lost a life - ")
             print(" you must start again!")
-        if direction == "L":
+        elif direction == "L" or direction == "l":
             print("You are standing at the door of the Chocolate room!")
+        elif direction == "S" or direction == "s":
+            print("wrong room!")
 
     else:
         print("You are a coward!!!...Goodbye")

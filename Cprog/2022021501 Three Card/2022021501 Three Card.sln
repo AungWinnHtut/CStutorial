@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2022021501 Three Card", "2022021501 Three Card\2022021501 Three Card.csproj", "{5851D24A-2788-4034-AA06-2074F13B442C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5851D24A-2788-4034-AA06-2074F13B442C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5851D24A-2788-4034-AA06-2074F13B442C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5851D24A-2788-4034-AA06-2074F13B442C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5851D24A-2788-4034-AA06-2074F13B442C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {55044207-DC21-4AA7-9DF5-8077B79A54BA}
+	EndGlobalSection
+EndGlobal

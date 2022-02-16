@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\2022021502 ThreeCard Random.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\2022021502 ThreeCard Random.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\2022021502 ThreeCard Random.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\2022021502 ThreeCard Random.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\CStutorial\Cprog\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

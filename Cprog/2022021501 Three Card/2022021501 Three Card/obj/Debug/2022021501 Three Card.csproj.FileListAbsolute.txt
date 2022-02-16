@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\bin\Debug\2022021501 Three Card.exe.config
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\bin\Debug\2022021501 Three Card.exe
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\bin\Debug\2022021501 Three Card.pdb
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\obj\Debug\2022021501 Three Card.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\obj\Debug\2022021501 Three Card.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\obj\Debug\_2022021501_Three_Card.frmThreeCard.resources
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\obj\Debug\_2022021501_Three_Card.Properties.Resources.resources
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\obj\Debug\2022021501 Three Card.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\obj\Debug\2022021501 Three Card.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\obj\Debug\2022021501 Three Card.exe
+D:\CStutorial\Cprog\2022021501 Three Card\2022021501 Three Card\obj\Debug\2022021501 Three Card.pdb
