@@ -1,4 +1,5 @@
 
+
 String inputString = "";         // a String to hold incoming data
 bool stringComplete = false;  // whether the string is complete
 
@@ -7,17 +8,12 @@ void setup() {
   Serial.begin(9600);
   // reserve 200 bytes for the inputString:
   inputString.reserve(200);
-  Serial.println("Please enter R in cm");
 }
 
 void loop() {
   // print the string when a newline arrives:
   if (stringComplete) {
-    float r;
-    r = inputString.toFloat();
-    float a = 3.14 * r * r;
-    Serial.print("The Area is = ");
-    Serial.println(a);
+    Serial.println(inputString);
     // clear the string:
     inputString = "";
     stringComplete = false;

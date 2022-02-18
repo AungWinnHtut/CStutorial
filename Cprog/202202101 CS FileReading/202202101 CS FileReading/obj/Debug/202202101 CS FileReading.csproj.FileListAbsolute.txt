@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\bin\Debug\202202101 CS FileReading.exe.config
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\bin\Debug\202202101 CS FileReading.exe
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\bin\Debug\202202101 CS FileReading.pdb
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\obj\Debug\202202101 CS FileReading.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\obj\Debug\202202101 CS FileReading.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\obj\Debug\_202202101_CS_FileReading.frmFileReader.resources
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\obj\Debug\_202202101_CS_FileReading.Properties.Resources.resources
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\obj\Debug\202202101 CS FileReading.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\obj\Debug\202202101 CS FileReading.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\obj\Debug\202202101 CS FileReading.exe
+D:\CStutorial\Cprog\202202101 CS FileReading\202202101 CS FileReading\obj\Debug\202202101 CS FileReading.pdb
