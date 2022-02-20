@@ -1,6 +1,6 @@
 robotname = "Botty"
 playername = "Aung"
-playerlive = 3
+playerlives = 3
 chocolate = 2
 
 
@@ -33,4 +33,4 @@ if playerchoice == "3":
 else:
     # enter a print statement to say "You have not guessed correctly so you have lost a life"
     print("You have not guessed correctly so you have lost a life")
-    playerlive = playerlive - 1
+    playerlives = playerlives - 1
