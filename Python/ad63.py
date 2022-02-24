@@ -45,3 +45,5 @@ print("Total Chocolate Bar = " + str(chocolate))
 print("Playerlives = " + str(playerlives))
 print("Bonus point  = " + str(bonus))
 print("Player's Score = " + str(score))
+
+# end
