@@ -1,0 +1,12 @@
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\bin\Debug\2022022401 CS Login Exam 2.exe.config
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\bin\Debug\2022022401 CS Login Exam 2.exe
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\bin\Debug\2022022401 CS Login Exam 2.pdb
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\obj\Debug\2022022401 CS Login Exam 2.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\obj\Debug\2022022401 CS Login Exam 2.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\obj\Debug\_2022022401_CS_Login_Exam_2.frmLogin.resources
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\obj\Debug\_2022022401_CS_Login_Exam_2.Properties.Resources.resources
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\obj\Debug\2022022401 CS Login Exam 2.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\obj\Debug\2022022401 CS Login Exam 2.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\obj\Debug\2022022401 CS Login Exam 2.exe
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\obj\Debug\2022022401 CS Login Exam 2.pdb
+D:\CStutorial\Cprog\2022022401 CS Login Exam 2\2022022401 CS Login Exam 2\obj\Debug\_2022022401_CS_Login_Exam_2.frmExam.resources
