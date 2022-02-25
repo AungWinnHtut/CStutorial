@@ -16,7 +16,7 @@ namespace _2022022401_CS_Login_Exam_2
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmAbout ());
+            Application.Run(new frmMaths ());
         }
     }
 }
