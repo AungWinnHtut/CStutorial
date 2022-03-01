@@ -1,0 +1,1 @@
+1$The speed of sound is ....$(a)343 m/s$(b)443 m/s$(c)343 cm/s$a

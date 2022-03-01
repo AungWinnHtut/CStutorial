@@ -87,6 +87,9 @@
     <EmbeddedResource Include="frmMaths.resx">
       <DependentUpon>frmMaths.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmPhysics.resx">
+      <DependentUpon>frmPhysics.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
