@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\bin\Debug\2022030201 CS Array Tutorial.exe.config
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\bin\Debug\2022030201 CS Array Tutorial.exe
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\bin\Debug\2022030201 CS Array Tutorial.pdb
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\2022030201 CS Array Tutorial.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\2022030201 CS Array Tutorial.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\_2022030201_CS_Array_Tutorial.frmArray.resources
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\_2022030201_CS_Array_Tutorial.Properties.Resources.resources
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\2022030201 CS Array Tutorial.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\2022030201 CS Array Tutorial.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\2022030201 CS Array Tutorial.exe
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\2022030201 CS Array Tutorial.pdb
