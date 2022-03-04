@@ -13,6 +13,12 @@ namespace _2022030201_CS_Array_Tutorial
 {
     public partial class frmArray : Form
     {
+        int iQno = 0;
+        string[] saQA = new string[100];
+        int iTotalQuestion = 0;
+        int iTotalMarks = 0;
+        string[] saSplit = new string[6];
+
         public frmArray()
         {
             InitializeComponent();
@@ -20,22 +26,60 @@ namespace _2022030201_CS_Array_Tutorial
 
         private void btnTest_Click(object sender, EventArgs e)
         {
-            // File ကနေ တစ်ကြောင်းချင်းဖတ်ရန်
-            string line = "";
-            string[] saPQ = new string[6];
-            StreamReader sr = new StreamReader("questions.txt");
-            // တစ်လိုင်းချင်းဖတ်မှာ
-            while ((line = sr.ReadLine()) != null)
+            if (iQno < iTotalQuestion ) //0 1 2      3
             {
-                // တစ်ကြောင်းချင်းကနေ အပိုင်း၆ပိုင်း ခွဲထုတ်ရန်               
-                saPQ = line.Split('$');
-                // အပိုင်း ၆ ပိုင်းကို 5 ပိုင်းကို UI ပေါ်တင်ရမယ်။ User အဖြေကို နောက်ဆုံး အပိုင်း အဖြေမှန်နဲ့ တိုက်ဆိုင်စစ်ဆေးမယ်
+                saSplit = saQA[iQno].Split('$');
+                txtNumber.Text = saSplit[0];
+                txtQuestion.Text = saSplit[1];
+                txtAns1.Text = saSplit[2];
+                txtAns2.Text = saSplit[3];
+                txtAns3.Text = saSplit[4];
+                //txtCorrectAnswer.Text = saSplit[5];
+                iQno++;
             }
-            sr.Close();
-
+            else
+            {
+                MessageBox.Show("Exam Questions Over");
+            }
            
-            
-            
+        }
+
+        private void frmArray_Load(object sender, EventArgs e)
+        {
+            string sLine = string.Empty;
+            StreamReader sr = new StreamReader("questions.txt");
+            while((sLine = sr.ReadLine()) != null && (sLine != ""))
+            {
+                saQA[iTotalQuestion ] = sLine;
+                iTotalQuestion ++;
+            }
+           
+           
+            saSplit = saQA[iQno].Split('$');
+            txtNumber .Text = saSplit[0];
+            txtQuestion .Text = saSplit[1];
+            txtAns1.Text = saSplit[2];
+            txtAns2.Text = saSplit[3];
+            txtAns3 .Text = saSplit[4];
+            //txtCorrectAnswer .Text =saSplit[5];
+            iQno++;
+
+            txtNumber.Enabled = false;
+            txtQuestion .Enabled = false;
+            txtAns1 .Enabled = false;
+            txtAns2.Enabled = false;
+            txtAns3.Enabled = false;
+            txtTotalMarks.Enabled = false;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            string sAns = txtCorrectAnswer .Text;
+            if(sAns == saSplit [5])
+            {
+                iTotalMarks += 10;
+                txtTotalMarks .Text = iTotalMarks .ToString();
+            }
         }
     }
 }

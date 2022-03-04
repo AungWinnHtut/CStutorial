@@ -1,3 +1,7 @@
 1$The speed of sound is ....$(a)343 m/s$(b)443 m/s$(c)343 cm/s$a
 2$The speed of light is ....$(a)49000000 m/s$(b)29000000 m/s$(c)343 cm/s$b
 3$The speed of bullet is ....$(a)343 m/s$(b)443 m/s$(c)343 cm/s$c
+4$The speed of horse is ....$(a)343 m/s$(b)443 m/s$(c)343 cm/s$a
+5$The speed of monkey is ....$(a)49000000 m/s$(b)29000000 m/s$(c)343 cm/s$b
+6$The speed of tiger is ....$(a)343 m/s$(b)443 m/s$(c)343 cm/s$c
+
