@@ -16,7 +16,7 @@ namespace _2022030201_CS_Array_Tutorial
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmArray());
+            Application.Run(new frmUItest ());
         }
     }
 }
