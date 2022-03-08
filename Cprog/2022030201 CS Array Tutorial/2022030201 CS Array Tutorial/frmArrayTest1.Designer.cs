@@ -97,6 +97,7 @@
             this.Controls.Add(this.btnReadString);
             this.Name = "frmArrayTest1";
             this.Text = "frmArrayTest1";
+            this.Load += new System.EventHandler(this.frmArrayTest1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -19,8 +19,14 @@ namespace _2022030201_CS_Array_Tutorial
 
         private void frmUItest_Load(object sender, EventArgs e)
         {
-            cboCities.Items.Add("NayPyiDaw");
-            cboCities.Items.Add("Pegu");
+            cboCities.Text = "km to miles";
+            lblLeft.Text = "km";
+            lblRight.Text = "miles";
+            
+
+            cboCities.Items.Add("km to miles");
+            cboCities.Items.Add("cm to inches");
+
         }
 
         private void btnAddCity_Click(object sender, EventArgs e)
@@ -31,11 +37,37 @@ namespace _2022030201_CS_Array_Tutorial
 
         private void cboCities_SelectedIndexChanged(object sender, EventArgs e)
         {
-            MessageBox.Show(cboCities.SelectedIndex.ToString());
-            if(cboCities.SelectedItem .ToString () == "Yangon")
+            if(cboCities.SelectedIndex == 0)
             {
-                this.Text = "Yangon";
+                lblLeft.Text = "km";
+                lblRight.Text = "miles";
+                
             }
+            else if(cboCities.SelectedIndex == 1)
+            {
+                lblLeft.Text = "cm";
+                lblRight.Text = "inches";
+              
+            }
+
+        }
+
+        private void btnCalculate_Click(object sender, EventArgs e)
+        {
+            
+            float fConst = 0.0f;
+            float fLeft = float.Parse(txtLeft.Text);
+            if (cboCities.SelectedIndex == 0)
+            {
+                fConst = 0.62f;
+            }
+            else if (cboCities.SelectedIndex == 1)
+            {
+                fConst = 0.39f;
+            }
+            float fAns = fConst * fLeft;
+            txtRight.Text = fAns.ToString();
+
         }
     }
 }

@@ -40,5 +40,10 @@ namespace _2022030201_CS_Array_Tutorial
             string sFinal = s1 +"*"+ s2 + "*" + s3;
             txtSinput .Text = sFinal ;
         }
+
+        private void frmArrayTest1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
