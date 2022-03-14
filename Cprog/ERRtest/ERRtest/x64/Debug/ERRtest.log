@@ -1,0 +1,3 @@
+﻿  Source.cpp
+D:\CStutorial\Cprog\ERRtest\ERRtest\Source.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  ERRtest.vcxproj -> D:\CStutorial\Cprog\ERRtest\x64\Debug\ERRtest.exe

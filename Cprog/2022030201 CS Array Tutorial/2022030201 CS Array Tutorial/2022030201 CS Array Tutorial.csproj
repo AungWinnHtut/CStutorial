@@ -58,6 +58,12 @@
     <Compile Include="frmArrayTest1.Designer.cs">
       <DependentUpon>frmArrayTest1.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUI.Designer.cs">
+      <DependentUpon>frmUI.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmUItest.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmArrayTest1.resx">
       <DependentUpon>frmArrayTest1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUI.resx">
+      <DependentUpon>frmUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUItest.resx">
       <DependentUpon>frmUItest.cs</DependentUpon>

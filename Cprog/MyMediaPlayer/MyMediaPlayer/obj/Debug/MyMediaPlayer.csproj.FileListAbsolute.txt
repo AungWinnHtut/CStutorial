@@ -1,0 +1,16 @@
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\bin\Debug\MyMediaPlayer.exe.config
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\bin\Debug\MyMediaPlayer.exe
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\bin\Debug\MyMediaPlayer.pdb
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\MyMediaPlayer.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\MyMediaPlayer.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\MyMediaPlayer.frmPlayer.resources
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\MyMediaPlayer.Properties.Resources.resources
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\MyMediaPlayer.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\MyMediaPlayer.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\MyMediaPlayer.exe
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\MyMediaPlayer.pdb
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\bin\Debug\Interop.WMPLib.dll
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\bin\Debug\AxInterop.WMPLib.dll
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\Interop.WMPLib.dll
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\AxInterop.WMPLib.dll
+D:\CStutorial\Cprog\MyMediaPlayer\MyMediaPlayer\obj\Debug\MyMediaPlayer.csproj.ResolveComReference.cache

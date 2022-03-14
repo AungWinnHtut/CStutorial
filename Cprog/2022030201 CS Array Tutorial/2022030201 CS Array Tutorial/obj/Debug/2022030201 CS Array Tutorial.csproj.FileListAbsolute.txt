@@ -11,3 +11,4 @@ D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\ob
 D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\2022030201 CS Array Tutorial.pdb
 D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\_2022030201_CS_Array_Tutorial.frmArrayTest1.resources
 D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\_2022030201_CS_Array_Tutorial.frmUItest.resources
+D:\CStutorial\Cprog\2022030201 CS Array Tutorial\2022030201 CS Array Tutorial\obj\Debug\_2022030201_CS_Array_Tutorial.frmUI.resources

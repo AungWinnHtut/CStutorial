@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\bin\Debug\2022031101 CS TextEditor.exe.config
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\bin\Debug\2022031101 CS TextEditor.exe
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\bin\Debug\2022031101 CS TextEditor.pdb
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\obj\Debug\2022031101 CS TextEditor.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\obj\Debug\2022031101 CS TextEditor.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\obj\Debug\_2022031101_CS_TextEditor.Properties.Resources.resources
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\obj\Debug\2022031101 CS TextEditor.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\obj\Debug\2022031101 CS TextEditor.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\obj\Debug\2022031101 CS TextEditor.exe
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\obj\Debug\2022031101 CS TextEditor.pdb
+D:\CStutorial\Cprog\2022031101 CS TextEditor\2022031101 CS TextEditor\obj\Debug\_2022031101_CS_TextEditor.frmEditor.resources
