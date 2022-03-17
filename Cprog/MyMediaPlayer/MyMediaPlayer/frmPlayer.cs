@@ -30,6 +30,8 @@ namespace MyMediaPlayer
                 string[] saFileList = Directory.GetFiles(sPath);
                 foreach (string sFile in saFileList)
                 {
+                    //D: \ ! Computer Science  igcse \ 2-Microbit Lessons \ 1-Lesson.mp4
+                    //4 - 0 1 2 3
                     saSplited = sFile .Split ('\\');
                     iSize = saSplited .Length;
                     lstFileList.Items.Add(saSplited [iSize -1]);

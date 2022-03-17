@@ -1,0 +1,16 @@
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\bin\Debug\PlayerTest.exe.config
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\bin\Debug\PlayerTest.exe
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\bin\Debug\PlayerTest.pdb
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\bin\Debug\Interop.WMPLib.dll
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\bin\Debug\AxInterop.WMPLib.dll
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\PlayerTest.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\PlayerTest.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\Interop.WMPLib.dll
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\AxInterop.WMPLib.dll
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\PlayerTest.csproj.ResolveComReference.cache
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\PlayerTest.frmPlayer.resources
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\PlayerTest.Properties.Resources.resources
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\PlayerTest.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\PlayerTest.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\PlayerTest.exe
+D:\CStutorial\Cprog\PlayerTest\PlayerTest\obj\Debug\PlayerTest.pdb
