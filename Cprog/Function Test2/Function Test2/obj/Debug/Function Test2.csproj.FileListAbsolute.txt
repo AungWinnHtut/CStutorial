@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\Function Test2\Function Test2\bin\Debug\Function Test2.exe.config
+D:\CStutorial\Cprog\Function Test2\Function Test2\bin\Debug\Function Test2.exe
+D:\CStutorial\Cprog\Function Test2\Function Test2\bin\Debug\Function Test2.pdb
+D:\CStutorial\Cprog\Function Test2\Function Test2\obj\Debug\Function Test2.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\Function Test2\Function Test2\obj\Debug\Function Test2.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\Function Test2\Function Test2\obj\Debug\Function_Test2.frmFunTest2.resources
+D:\CStutorial\Cprog\Function Test2\Function Test2\obj\Debug\Function_Test2.Properties.Resources.resources
+D:\CStutorial\Cprog\Function Test2\Function Test2\obj\Debug\Function Test2.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\Function Test2\Function Test2\obj\Debug\Function Test2.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\Function Test2\Function Test2\obj\Debug\Function Test2.exe
+D:\CStutorial\Cprog\Function Test2\Function Test2\obj\Debug\Function Test2.pdb
