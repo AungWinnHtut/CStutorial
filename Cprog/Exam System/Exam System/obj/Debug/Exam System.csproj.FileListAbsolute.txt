@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\Exam System\Exam System\bin\Debug\Exam System.exe.config
+D:\CStutorial\Cprog\Exam System\Exam System\bin\Debug\Exam System.exe
+D:\CStutorial\Cprog\Exam System\Exam System\bin\Debug\Exam System.pdb
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam_System.frmExam.resources
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam_System.Properties.Resources.resources
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.exe
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.pdb
