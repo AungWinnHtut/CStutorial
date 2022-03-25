@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\bin\Debug\2022032301 CS Area Of Circle.exe.config
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\bin\Debug\2022032301 CS Area Of Circle.exe
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\bin\Debug\2022032301 CS Area Of Circle.pdb
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\obj\Debug\2022032301 CS Area Of Circle.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\obj\Debug\2022032301 CS Area Of Circle.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\obj\Debug\_2022032301_CS_Area_Of_Circle.frmArea.resources
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\obj\Debug\_2022032301_CS_Area_Of_Circle.Properties.Resources.resources
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\obj\Debug\2022032301 CS Area Of Circle.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\obj\Debug\2022032301 CS Area Of Circle.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\obj\Debug\2022032301 CS Area Of Circle.exe
+D:\CStutorial\Cprog\2022032301 CS Area Of Circle\2022032301 CS Area Of Circle\obj\Debug\2022032301 CS Area Of Circle.pdb

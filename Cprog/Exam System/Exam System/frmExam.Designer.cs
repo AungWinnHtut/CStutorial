@@ -40,6 +40,10 @@
             this.rdo4 = new System.Windows.Forms.RadioButton();
             this.btnSubmit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
+            this.txtFname = new System.Windows.Forms.TextBox();
+            this.btnBrowse = new System.Windows.Forms.Button();
+            this.btnStart = new System.Windows.Forms.Button();
+            this.ofdFname = new System.Windows.Forms.OpenFileDialog();
             this.SuspendLayout();
             // 
             // txtQuestion
@@ -86,7 +90,7 @@
             // lblQno
             // 
             this.lblQno.AutoSize = true;
-            this.lblQno.Location = new System.Drawing.Point(520, 18);
+            this.lblQno.Location = new System.Drawing.Point(909, 18);
             this.lblQno.Name = "lblQno";
             this.lblQno.Size = new System.Drawing.Size(51, 20);
             this.lblQno.TabIndex = 4;
@@ -151,17 +155,52 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(421, 18);
+            this.label1.Location = new System.Drawing.Point(117, 18);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(73, 20);
             this.label1.TabIndex = 11;
             this.label1.Text = "Question";
+            // 
+            // txtFname
+            // 
+            this.txtFname.Location = new System.Drawing.Point(196, 15);
+            this.txtFname.Name = "txtFname";
+            this.txtFname.Size = new System.Drawing.Size(346, 26);
+            this.txtFname.TabIndex = 12;
+            this.txtFname.Text = "D:\\CStutorial\\Quiz\\\\q1.txt";
+            // 
+            // btnBrowse
+            // 
+            this.btnBrowse.Location = new System.Drawing.Point(548, 13);
+            this.btnBrowse.Name = "btnBrowse";
+            this.btnBrowse.Size = new System.Drawing.Size(88, 28);
+            this.btnBrowse.TabIndex = 13;
+            this.btnBrowse.Text = "...";
+            this.btnBrowse.UseVisualStyleBackColor = true;
+            this.btnBrowse.Click += new System.EventHandler(this.btnBrowse_Click);
+            // 
+            // btnStart
+            // 
+            this.btnStart.Location = new System.Drawing.Point(642, 13);
+            this.btnStart.Name = "btnStart";
+            this.btnStart.Size = new System.Drawing.Size(88, 28);
+            this.btnStart.TabIndex = 14;
+            this.btnStart.Text = "Start";
+            this.btnStart.UseVisualStyleBackColor = true;
+            this.btnStart.Click += new System.EventHandler(this.btnStart_Click);
+            // 
+            // ofdFname
+            // 
+            this.ofdFname.FileName = "openFileDialog1";
             // 
             // frmExam
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(993, 362);
+            this.Controls.Add(this.btnStart);
+            this.Controls.Add(this.btnBrowse);
+            this.Controls.Add(this.txtFname);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnSubmit);
             this.Controls.Add(this.rdo4);
@@ -176,6 +215,7 @@
             this.Controls.Add(this.txtQuestion);
             this.Name = "frmExam";
             this.Text = "Exam System 2022";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmExam_FormClosing);
             this.Load += new System.EventHandler(this.frmExam_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -196,6 +236,10 @@
         private System.Windows.Forms.RadioButton rdo4;
         private System.Windows.Forms.Button btnSubmit;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtFname;
+        private System.Windows.Forms.Button btnBrowse;
+        private System.Windows.Forms.Button btnStart;
+        private System.Windows.Forms.OpenFileDialog ofdFname;
     }
 }
 

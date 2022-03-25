@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Exam_System
+namespace _2022032301_CS_Area_Of_Circle
 {
     internal static class Program
     {
@@ -16,7 +16,7 @@ namespace Exam_System
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmExam   ());
+            Application.Run(new frmArea());
         }
     }
 }

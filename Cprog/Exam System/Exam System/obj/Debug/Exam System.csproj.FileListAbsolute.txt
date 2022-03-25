@@ -9,3 +9,5 @@ D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.csproj.Generat
 D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.csproj.CoreCompileInputs.cache
 D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.exe
 D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam System.pdb
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam_System.frmLogin.resources
+D:\CStutorial\Cprog\Exam System\Exam System\obj\Debug\Exam_System.frmQdesign.resources

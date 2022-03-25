@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{CE2A2230-C0D9-4C2B-A7EC-674C70846432}</ProjectGuid>
+    <ProjectGuid>{9E12B10D-3734-457E-B35E-A158CC052B82}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>Exam_System</RootNamespace>
-    <AssemblyName>Exam System</AssemblyName>
+    <RootNamespace>_2022032301_CS_Area_Of_Circle</RootNamespace>
+    <AssemblyName>2022032301 CS Area Of Circle</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -46,34 +46,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="frmExam.cs">
+    <Compile Include="frmArea.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmExam.Designer.cs">
-      <DependentUpon>frmExam.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmLogin.Designer.cs">
-      <DependentUpon>frmLogin.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmQdesign.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmQdesign.Designer.cs">
-      <DependentUpon>frmQdesign.cs</DependentUpon>
+    <Compile Include="frmArea.Designer.cs">
+      <DependentUpon>frmArea.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="frmExam.resx">
-      <DependentUpon>frmExam.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmLogin.resx">
-      <DependentUpon>frmLogin.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="frmQdesign.resx">
-      <DependentUpon>frmQdesign.cs</DependentUpon>
+    <EmbeddedResource Include="frmArea.resx">
+      <DependentUpon>frmArea.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

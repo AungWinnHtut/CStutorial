@@ -27,30 +27,7 @@ namespace Exam_System
 
         private void frmExam_Load(object sender, EventArgs e)
         {
-            txtScores.Text = "0";
-
-            try
-            {
-                // Create an instance of StreamReader to read from a file.
-                // The using statement also closes the StreamReader.
-                using (StreamReader sr = new StreamReader("D:\\CStutorial\\Quiz\\q1.txt"))
-                {
-                    string line;
-                    // Read and display lines from the file until the end of
-                    // the file is reached.
-                    while ((line = sr.ReadLine()) != null)
-                    {
-                        saQuestions[iTotalQ] = line;
-                        iTotalQ = iTotalQ + 1;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-               MessageBox.Show (ex.Message);
-            }
-            funNextQuestion();
-            
+           
         }
 
         private void funMarking()
@@ -113,21 +90,76 @@ namespace Exam_System
         private void funNextQuestion()
         {
             saCurrentQuestion = saQuestions[iCurrentQno].Split('#');
-            txtQuestion.Text = saCurrentQuestion[1];
-            rdo1.Text = saCurrentQuestion[2];
-            rdo2.Text = saCurrentQuestion[3];
-            rdo3.Text = saCurrentQuestion[4];
-            rdo4.Text = saCurrentQuestion[5];
-            sCurrentCorrectAns = saCurrentQuestion[6];
-            iCurrentQno++;
-            lblQno.Text = iCurrentQno + "/" + iTotalQ;
-            btnSubmit.Enabled = true;
-            rdo1.Enabled = true;
-            rdo2.Enabled = true;
-            rdo3.Enabled = true;
-            rdo4.Enabled = true;
+            if(saCurrentQuestion .Length ==7)
+            {
+                txtQuestion.Text = saCurrentQuestion[1];
+                rdo1.Text = saCurrentQuestion[2];
+                rdo2.Text = saCurrentQuestion[3];
+                rdo3.Text = saCurrentQuestion[4];
+                rdo4.Text = saCurrentQuestion[5];
+                sCurrentCorrectAns = saCurrentQuestion[6];
+                iCurrentQno++;
+                lblQno.Text = iCurrentQno + "/" + iTotalQ;
+                btnSubmit.Enabled = true;
+                rdo1.Enabled = true;
+                rdo2.Enabled = true;
+                rdo3.Enabled = true;
+                rdo4.Enabled = true;
 
-            btnNext.Enabled = false;
+                btnNext.Enabled = false;
+            }
+            else
+            {
+                iCurrentQno++;
+                funNextQuestion();
+            }
+          
+        }
+
+        private void frmExam_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnBrowse_Click(object sender, EventArgs e)
+        {
+            if(ofdFname .ShowDialog() == DialogResult.OK)
+            {
+                txtFname .Text = ofdFname.FileName;
+            }
+        }
+
+        private void btnStart_Click(object sender, EventArgs e)
+        {
+            txtScores.Text = "0";
+            if(txtFname .Text ==string.Empty )
+            {
+                MessageBox.Show("Invalid question");
+                return;
+            }
+            string sQuestion = txtFname .Text ;
+            try
+            {
+                // Create an instance of StreamReader to read from a file.
+                // The using statement also closes the StreamReader.
+                using (StreamReader sr = new StreamReader(sQuestion))
+                {
+                    string line;
+                    // Read and display lines from the file until the end of
+                    // the file is reached.
+                    while ((line = sr.ReadLine()) != null)
+                    {
+                        saQuestions[iTotalQ] = line;
+                        iTotalQ = iTotalQ + 1;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            funNextQuestion();
+
         }
     }
 }
