@@ -14,14 +14,14 @@ namespace Exam_System
     public partial class frmQdesign : Form
     {
         string sFname;
-        public frmQdesign()
+        public frmQdesign() //constructor
         {
             InitializeComponent();
         }
 
         private void frmQdesign_FormClosing(object sender, FormClosingEventArgs e)
         {
-            Application.Exit();
+            Application.Exit(); //
         }
 
         private void btnExit_Click(object sender, EventArgs e)
@@ -89,6 +89,11 @@ namespace Exam_System
                 sFname = sfdFname .FileName;
                 txtFname.Text = sFname;
             }
+        }
+
+        private void frmQdesign_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -161,5 +161,10 @@ namespace Exam_System
             funNextQuestion();
 
         }
+
+        private void btnExit_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

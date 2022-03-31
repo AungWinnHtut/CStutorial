@@ -21,7 +21,7 @@ namespace Exam_System
         {
             string sUname = txtUname.Text;
             string sPass = txtPass.Text;
-
+            // ==, !=, >, < ,>=,<=,!
             if( sUname == "admin" && sPass =="1234")
             {
                 //load Qdesigner

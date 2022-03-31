@@ -221,6 +221,7 @@
             this.Name = "frmQdesign";
             this.Text = "frmQdesign";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmQdesign_FormClosing);
+            this.Load += new System.EventHandler(this.frmQdesign_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

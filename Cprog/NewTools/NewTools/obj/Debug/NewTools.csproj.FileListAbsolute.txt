@@ -1,0 +1,17 @@
+D:\CStutorial\Cprog\NewTools\NewTools\bin\Debug\NewTools.exe.config
+D:\CStutorial\Cprog\NewTools\NewTools\bin\Debug\NewTools.exe
+D:\CStutorial\Cprog\NewTools\NewTools\bin\Debug\NewTools.pdb
+D:\CStutorial\Cprog\NewTools\NewTools\obj\Debug\NewTools.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\NewTools\NewTools\obj\Debug\NewTools.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\NewTools\NewTools\obj\Debug\NewTools.frmBrowser.resources
+D:\CStutorial\Cprog\NewTools\NewTools\obj\Debug\NewTools.Properties.Resources.resources
+D:\CStutorial\Cprog\NewTools\NewTools\obj\Debug\NewTools.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\NewTools\NewTools\obj\Debug\NewTools.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\NewTools\NewTools\obj\Debug\NewTools.exe
+D:\CStutorial\Cprog\NewTools\NewTools\obj\Debug\NewTools.pdb
+D:\CStutorial\Cprog\NewTools\NewTools\bin\Debug\CefSharp.Core.dll
+D:\CStutorial\Cprog\NewTools\NewTools\bin\Debug\CefSharp.dll
+D:\CStutorial\Cprog\NewTools\NewTools\bin\Debug\CefSharp.xml
+D:\CStutorial\Cprog\NewTools\NewTools\bin\Debug\CefSharp.Core.xml
+D:\CStutorial\Cprog\NewTools\NewTools\bin\Debug\CefSharp.WinForms.xml
+D:\CStutorial\Cprog\NewTools\NewTools\obj\Debug\NewTools.csproj.CopyComplete
