@@ -1,0 +1,12 @@
+D:\CStutorial\Cprog\NewTools2\NewTools2\bin\Debug\NewTools2.exe.config
+D:\CStutorial\Cprog\NewTools2\NewTools2\bin\Debug\NewTools2.exe
+D:\CStutorial\Cprog\NewTools2\NewTools2\bin\Debug\NewTools2.pdb
+D:\CStutorial\Cprog\NewTools2\NewTools2\obj\Debug\NewTools2.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\NewTools2\NewTools2\obj\Debug\NewTools2.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\NewTools2\NewTools2\obj\Debug\NewTools2.frmNewTools2.resources
+D:\CStutorial\Cprog\NewTools2\NewTools2\obj\Debug\NewTools2.Properties.Resources.resources
+D:\CStutorial\Cprog\NewTools2\NewTools2\obj\Debug\NewTools2.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\NewTools2\NewTools2\obj\Debug\NewTools2.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\NewTools2\NewTools2\obj\Debug\NewTools2.exe
+D:\CStutorial\Cprog\NewTools2\NewTools2\obj\Debug\NewTools2.pdb
+D:\CStutorial\Cprog\NewTools2\NewTools2\obj\Debug\NewTools2.frmList.resources

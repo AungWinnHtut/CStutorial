@@ -52,10 +52,19 @@
     <Compile Include="frmArea.Designer.cs">
       <DependentUpon>frmArea.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmUnitConverter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmUnitConverter.Designer.cs">
+      <DependentUpon>frmUnitConverter.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="frmArea.resx">
       <DependentUpon>frmArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmUnitConverter.resx">
+      <DependentUpon>frmUnitConverter.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

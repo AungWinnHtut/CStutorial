@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\bin\Debug\AreaOfTriangle.exe.config
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\bin\Debug\AreaOfTriangle.exe
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\bin\Debug\AreaOfTriangle.pdb
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.frmAreaOfTriangle.resources
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.Properties.Resources.resources
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.exe
+D:\CStutorial\Cprog\AreaOfTriangle\AreaOfTriangle\obj\Debug\AreaOfTriangle.pdb

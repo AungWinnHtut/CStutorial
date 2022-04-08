@@ -9,3 +9,4 @@ D:\CStutorial\Cprog\Revision1\Revision1\obj\Debug\Revision1.csproj.GenerateResou
 D:\CStutorial\Cprog\Revision1\Revision1\obj\Debug\Revision1.csproj.CoreCompileInputs.cache
 D:\CStutorial\Cprog\Revision1\Revision1\obj\Debug\Revision1.exe
 D:\CStutorial\Cprog\Revision1\Revision1\obj\Debug\Revision1.pdb
+D:\CStutorial\Cprog\Revision1\Revision1\obj\Debug\Revision1.frmUnitConverter.resources

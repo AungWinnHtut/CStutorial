@@ -16,7 +16,7 @@ namespace Revision1
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmArea());
+            Application.Run(new frmUnitConverter ());
         }
     }
 }

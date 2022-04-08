@@ -20,7 +20,8 @@ namespace Revision1
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             funCalArea();
-          
+            txtR.SelectAll();
+            txtR.Focus();
         }
 
         private void txtR_KeyDown(object sender, KeyEventArgs e)
@@ -28,8 +29,7 @@ namespace Revision1
             if(e.KeyCode == Keys.Enter)
             {
                 funCalArea();
-                txtR .SelectAll();
-                txtR.Focus();
+               
             }
 
         }
@@ -42,7 +42,7 @@ namespace Revision1
 
             // varname = value;
             // varname
-            fRadius = float.Parse(txtR.Text);
+            //fRadius = float.Parse(txtR.Text);
 
             // bool bStatus = float.TryParse (txtR .Text, out fRadius);
             // if(bStatus)
@@ -51,15 +51,17 @@ namespace Revision1
             {
                 // data valid
                 fArea = 3.14f * fRadius * fRadius;
-                txtA.Text = fArea.ToString();
+                txtA.Text = fArea.ToString();             
             }
             else
             {
+                MessageBox.Show("Invalid format, Pls enter floating value");                
                 //data invalid
                 //show error and ask to try again
             }
 
-
+            txtR.SelectAll();
+            txtR.Focus();
 
             // 1. User ထည့်ပေးလိုက်တဲ့ တန်ဖိုးကို စစ်မယ်
             // float ဖြစ်လား မဖြစ်လား စစ်ဖို့လိုမယ်
