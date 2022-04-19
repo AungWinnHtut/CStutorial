@@ -1,0 +1,11 @@
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\bin\Debug\Basic Revision.exe.config
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\bin\Debug\Basic Revision.exe
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\bin\Debug\Basic Revision.pdb
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\obj\Debug\Basic Revision.csproj.AssemblyReference.cache
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\obj\Debug\Basic Revision.csproj.SuggestedBindingRedirects.cache
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\obj\Debug\Basic_Revision.Form1.resources
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\obj\Debug\Basic_Revision.Properties.Resources.resources
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\obj\Debug\Basic Revision.csproj.GenerateResource.cache
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\obj\Debug\Basic Revision.csproj.CoreCompileInputs.cache
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\obj\Debug\Basic Revision.exe
+D:\CStutorial\Cprog\Basic Revision\Basic Revision\obj\Debug\Basic Revision.pdb
