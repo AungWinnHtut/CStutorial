@@ -1,0 +1,28 @@
+<ASSEMBLER_INFO>
+ <VERSION>2.2.8</VERSION>
+ <DEVICE>"ATmega328"</DEVICE>
+ <WORKING_DIR>D:\CStutorial\Assembly\Assembly\Assembly\Debug</WORKING_DIR>
+ <INCLUDE_PATH>
+  <DIR>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc</DIR>
+  <DIR>C:\Program Files (x86)\Atmel\Studio\7.0\toolchain\avr8\avrassembler\Include</DIR>
+  <DIR></DIR>
+ </INCLUDE_PATH>
+ <SOURCE_FILE>D:\CStutorial\Assembly\Assembly\Assembly\AsmFile1.asm</SOURCE_FILE>
+ <INCLUDED_FILES>
+  <FILE>C:/Program Files (x86)\Atmel\Studio\7.0\Packs\atmel\ATmega_DFP\1.6.364\avrasm\inc\m328def.inc</FILE>
+ </INCLUDED_FILES>
+ <OBJECT_FILES>
+  <FILE>D:\CStutorial\Assembly\Assembly\Assembly\Debug\Assembly.obj</FILE>
+ </OBJECT_FILES>
+ <HEX_FILES>
+  <FILE>Assembly.hex</FILE>
+ </HEX_FILES>
+ <OUTPUT_FILES>
+  <FILE>Assembly.map</FILE>
+  <FILE>Assembly.lss</FILE>
+ </OUTPUT_FILES>
+ <LABELS>
+  <NUM><FILE>D:\CStutorial\Assembly\Assembly\Assembly\AsmFile1.asm</FILE><LINE>19</LINE></NUM>
+  <NOCARRYLABEL><FILE>D:\CStutorial\Assembly\Assembly\Assembly\AsmFile1.asm</FILE><LINE>17</LINE></NOCARRYLABEL>
+ </LABELS>
+</ASSEMBLER_INFO>

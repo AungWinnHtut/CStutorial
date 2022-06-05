@@ -1,0 +1,22 @@
+/*
+ * AsmFile1.asm
+ *
+ *  Created: 6/3/2022 8:19:47 PM
+ *   Author: Dr. Aung Win Htut
+ */ 
+ .CSEG
+ LDI ZL,LOW(NUM<<1)
+ LDI ZH,HIGH(NUM<<1)
+ LPM R3, Z+
+ LPM R4,Z
+ LDI XL, 0x60
+ LDI XH,0x00
+ LDI R16, 0x00
+ ADD R3, R4
+ BRCC NOCARRYLABEL
+ NOCARRYLABEL: ST X+,R3
+ NOP;
+ NUM: .DB 0XAA,0X1B
+
+
+
