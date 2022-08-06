@@ -1,0 +1,9 @@
+﻿  Source.cpp
+I:\CStutorial\Cprog\recursion\recursion\Source.cpp(13,9): warning C4101: 'd1': unreferenced local variable
+I:\CStutorial\Cprog\recursion\recursion\Source.cpp(15,9): warning C4101: 'd3': unreferenced local variable
+I:\CStutorial\Cprog\recursion\recursion\Source.cpp(16,9): warning C4101: 'd4': unreferenced local variable
+I:\CStutorial\Cprog\recursion\recursion\Source.cpp(18,9): warning C4101: 'd6': unreferenced local variable
+I:\CStutorial\Cprog\recursion\recursion\Source.cpp(17,9): warning C4101: 'd5': unreferenced local variable
+I:\CStutorial\Cprog\recursion\recursion\Source.cpp(12,9): warning C4101: 'd': unreferenced local variable
+I:\CStutorial\Cprog\recursion\recursion\Source.cpp(14,9): warning C4101: 'd2': unreferenced local variable
+  recursion.vcxproj -> I:\CStutorial\Cprog\recursion\x64\Debug\recursion.exe

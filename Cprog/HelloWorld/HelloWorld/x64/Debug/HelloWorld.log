@@ -1,0 +1,6 @@
+﻿  Area.cpp
+I:\CStutorial\Cprog\HelloWorld\HelloWorld\Area.cpp(13,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Source.cpp
+I:\CStutorial\Cprog\HelloWorld\HelloWorld\Source.cpp(7,38): warning C4305: 'argument': truncation from 'double' to 'float'
+  Generating Code...
+  HelloWorld.vcxproj -> I:\CStutorial\Cprog\HelloWorld\x64\Debug\HelloWorld.exe
