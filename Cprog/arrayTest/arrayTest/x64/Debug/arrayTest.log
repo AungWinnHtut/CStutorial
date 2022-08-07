@@ -1,0 +1,4 @@
+﻿  Source.cpp
+I:\CStutorial\Cprog\arrayTest\arrayTest\Source.cpp(7,10): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+I:\CStutorial\Cprog\arrayTest\arrayTest\Source.cpp(7,10): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+  arrayTest.vcxproj -> I:\CStutorial\Cprog\arrayTest\x64\Debug\arrayTest.exe

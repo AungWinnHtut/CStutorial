@@ -1,0 +1,16 @@
+# ninja log v5
+10	120	6814635952056718	CMakeFiles/Cprog.dir/AdvantureGold/AdvantureGold/game1.cpp.obj	1ef824fff83f2311
+68	154	6814635952405801	CMakeFiles/Cprog.dir/AofCircles/AofCircles/Source.cpp.obj	3b182f7eaa9bb45c
+1	340	6814635954260262	CMakeFiles/Cprog.dir/2022020801PhotoAlbum/2022020801PhotoAlbum/2022020801PhotoAlbum.cpp.obj	d8ce7061afd1e1a8
+63	139	6814636074993113	CMakeFiles/Cprog.dir/AofCircles/AofCircles/functions.cpp.obj	e79cc4c60648a4f2
+70	172	6814636075312264	CMakeFiles/Cprog.dir/Data1/Data1/Data1.cpp.obj	6e1c2fabf99e2696
+76	173	6814636075312264	CMakeFiles/Cprog.dir/Data1/Data1/oldversion1.cpp.obj	e4f1735abbb267a0
+76	171	6814636252379894	CMakeFiles/Cprog.dir/FileIO/FileIO/FileIO.cpp.obj	ada73bea429c3d00
+71	370	6814636254367791	CMakeFiles/Cprog.dir/FileIOw/FileIOw/Source.cpp.obj	2d4cc031d73ae4b6
+77	159	6814636533443565	CMakeFiles/Cprog.dir/HelloWorld/HelloWorld/Area.cpp.obj	68a545527eedaff8
+70	159	6814636533443565	CMakeFiles/Cprog.dir/Hello_World/Hello_World/Source.cpp.obj	c3adca5c6e013e09
+75	152	6814636825804073	CMakeFiles/Cprog.dir/HelloWorld/HelloWorld/Source.cpp.obj	99ec5cdd14a4cc42
+69	164	6814636825933720	CMakeFiles/Cprog.dir/Project1/Project1/Source.cpp.obj	8d01d66b41bddec6
+67	140	6814637040350821	CMakeFiles/Cprog.dir/arduino.c.obj	7d2954232d46be9d
+74	154	6814637040490443	CMakeFiles/Cprog.dir/recursion/recursion/Source.cpp.obj	ea051bf810a0365f
+72	135	6814637236584952	CMakeFiles/Cprog.dir/arduino.c.obj	7d2954232d46be9d

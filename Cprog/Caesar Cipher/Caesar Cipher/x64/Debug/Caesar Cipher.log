@@ -1,0 +1,6 @@
+﻿  Source.cpp
+I:\CStutorial\Cprog\Caesar Cipher\Caesar Cipher\Source.cpp(11,10): warning C4473: 'scanf_s' : not enough arguments passed for format string
+I:\CStutorial\Cprog\Caesar Cipher\Caesar Cipher\Source.cpp(11,10): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+I:\CStutorial\Cprog\Caesar Cipher\Caesar Cipher\Source.cpp(11,10): message : the missing variadic argument 2 is required by format string '%c'
+I:\CStutorial\Cprog\Caesar Cipher\Caesar Cipher\Source.cpp(11,10): message : this argument is used as a buffer size
+  Caesar Cipher.vcxproj -> I:\CStutorial\Cprog\Caesar Cipher\x64\Debug\Caesar Cipher.exe

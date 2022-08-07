@@ -1,5 +1,6 @@
-#include <Arduino.h>
+//#include <Arduino.h>
 void setup();
+void loop();
 int main()
 {
     setup();
@@ -7,6 +8,7 @@ int main()
     {
         loop();
     }
+    return 0;
 }
 
 void setup()

@@ -1,0 +1,3 @@
+I:/CStutorial/Cprog/helloclion/cmake-build-debug/CMakeFiles/helloclion.dir
+I:/CStutorial/Cprog/helloclion/cmake-build-debug/CMakeFiles/edit_cache.dir
+I:/CStutorial/Cprog/helloclion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
