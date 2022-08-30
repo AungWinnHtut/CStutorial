@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js" type="module"></script>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="login.css">
+  <script src="index.js" type="module"></script>
+</head>
+
+<body>
+  <div id="login">
+    <header>
+      <h1>S</h1>
+      <h1>I</h1>
+      <h1>G</h1>
+      <h1>H</h1>
+      <h1>S</h1>
+    </header>
+
+    <main>
+      <div id="longName">Smart IoT Green House System</div>
+      <form>
+        <input type="text" id="nameInput" placeholder="username" required>
+        <input type="password" id="passwordInput" placeholder="password" required>
+        <input type="submit" id="submitButton" value="Login">
+      </form>
+    </main>
+    <div id="spin" hidden></div>
+    <footer>A project for the APT 2022 "IoT Smart Challenge for Agri-Tech Sector" project competition</footer>
+  </div>
+
+  <div id="client" hidden>
+    <header><h1>SIGHS</h1></header>
+  </div>
+
+  <!--div>
+    Smart&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IoT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Green&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;House&nbsp;&nbsp;&nbsp;&nbsp;System
+  </div-->
+  <canvas id="humidity" style="width:100%;max-width:700px"></canvas>
+  <canvas id="temp" style="width:100%;max-width:700px"></canvas>
+  <!--script>
+    fetch('/api/getDataCollections').then(async res => {
+      const data = await res.json();
+
+      const humidity = data['6306024fd2a6f70702fe46c8'];
+      const temp = data['63060250d2a6f70702fe46c9'];
+
+      let hxValues = humidity.map(h => h[0]);
+      let hyValues = humidity.map(h => h[1]);
+
+      new Chart("humidity", {
+        type: "line",
+        data: {
+          labels: hxValues,
+          datasets: [{
+            label: 'Humidity',
+            backgroundColor: "rgb(200,200,200)",
+            borderColor: "rgb(0,0,0)",
+            data: hyValues
+          }]
+        },
+        options: {}
+      });
+
+      let txValues = temp.map(t => t[0]);
+      let tyValues = temp.map(t => t[1]);
+
+      new Chart("temp", {
+        type: "line",
+        data: {
+          labels: txValues,
+          datasets: [{
+            label: 'Temperature',
+            backgroundColor: "rgb(255,205,0)",
+            borderColor: "rgb(255,128,0)",
+            data: tyValues
+          }]
+        },
+        options: {}
+      });
+    })
+  </!--script-->
+</body>
+
+</html>

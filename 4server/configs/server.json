@@ -1,0 +1,6 @@
+{
+  "listenHostname": "127.0.0.1",
+  "listenPort": 80,
+  "disableServerForcedRoot": false,
+  "serverForcedRootPasswordHashed": "$2a$12$nLlWqNfSDNWNQI4lSwuM1Ovzv2FPnmGYZKmvLBYBcXyrmFgFeaoLm"
+}
