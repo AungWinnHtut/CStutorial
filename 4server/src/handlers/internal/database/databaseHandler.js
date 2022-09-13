@@ -25,15 +25,16 @@ export const User = new Proxy(createUserModel(conn), {
 // /** @typedef {ReturnType<createDataCollectionModel>} DataCollectionModel */
 // /** @type {{ [P in keyof DataCollectionModel]: DataCollectionModel[P] | Promise<DataCollectionModel[P]>; }} */
 // const DataCollection = new Proxy(createDataCollectionModel(conn), {
-  //get(target, prop, receiver) {
-  //  if (getIfDevMode())
-  //    return "world";
-  //}
+//get(target, prop, receiver) {
+//  if (getIfDevMode())
+//    return "world";
+//}
 // });
 
 /** @type {{ [key: string]: [Date, number][] }} */
 export const DataCollections = {
-  '6306024fd2a6f70702fe46c8': [],
-  '63060250d2a6f70702fe46c9': []
+  '6306024fd2a6f70702fe46c8': [], //H
+  '6306025fd2a6f70702fe46c9': [], //T
+  '63060260d2a6f70702fe46c7': []  //S
 }
 

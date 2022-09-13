@@ -1,3 +1,4 @@
 ﻿  Source.cpp
-I:\CStutorial\Cprog\strmani.c\strmani.c\Source.cpp(13,7): warning C4101: 'k': unreferenced local variable
+I:\CStutorial\Cprog\strmani.c\strmani.c\Source.cpp(19,7): warning C4101: 'k': unreferenced local variable
+I:\CStutorial\Cprog\strmani.c\strmani.c\Source.cpp(20,8): warning C4101: 'array': unreferenced local variable
   strmani.c.vcxproj -> I:\CStutorial\Cprog\strmani.c\x64\Debug\strmani.c.exe

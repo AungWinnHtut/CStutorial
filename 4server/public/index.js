@@ -51,6 +51,7 @@ fetch('/api/getDataCollections').then(async res => {
 
   const humidity = data['6306024fd2a6f70702fe46c8'];
   const temp = data['63060250d2a6f70702fe46c9'];
+  const soil = data['6306026fd2a6f70702fe46c7'];
 
   let hxValues = humidity.map(h => h[0]);
   let hyValues = humidity.map(h => h[1]);
@@ -85,4 +86,23 @@ fetch('/api/getDataCollections').then(async res => {
     },
     options: {}
   });
+
+  let sxValues = soil.map(t => t[0]);
+  let syValues = soil.map(t => t[1]);
+
+  new Chart("soil", {
+    type: "line",
+    data: {
+      labels: sxValues,
+      datasets: [{
+        label: 'Soil Moisture',
+        backgroundColor: "rgb(255,205,0)",
+        borderColor: "rgb(255,128,0)",
+        data: syValues
+      }]
+    },
+    options: {}
+  });
+
+
 })

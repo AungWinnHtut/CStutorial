@@ -1,0 +1,2 @@
+﻿  Source.cpp
+I:\CStutorial\Cprog\Project2\Project2\Source.cpp(8): error C4789: buffer 'ff' of size 16 bytes will be overrun; 4 bytes will be written starting at offset 16

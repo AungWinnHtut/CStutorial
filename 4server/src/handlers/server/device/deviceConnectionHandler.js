@@ -5,12 +5,15 @@ import { DataCollections } from '../../internal/database/databaseHandler.js';
 /** @typedef {import('ws').WebSocket} WebSocket */
 /** @typedef {import('ws').RawData} RawData */
 
+let asdf = 0;
+
 class DeviceConnection {
   /** @param {WebSocket} ws */
   constructor(ws) {
     this.commandID = 0;
     this.authenticated = false;
     this.ws = ws;
+    console.log('connection' + asdf++);
     ws.on('message', data => this.onMessage(data));
   }
 
