@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background: #eaf6f6;
+    height: 100vh;
+}
+
+.navbar{
+    width: 1200px;
+    height: 30px;
+    margin: auto;
+}
+
+
+.menu{
+    width: 1200px;
+    float: left;
+    height: 25px;
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 100px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #66bfbf;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #800000;
+}
+
+.content{
+    width: 1000px;
+    height: auto;
+    margin: auto;
+    color: #A0522D;
+    position: center;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: Arial;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    align: center;
+}
+
+
+.content span{
+    color: #800000;
+    font-size: 65px
+}
+
+h2{
+	text-align: center;
+	font-family: Arial;
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    align:  center;
+}
+h3{
+	text-align: center;
+	font-family: Arial;
+    font-size: 35px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+    align:  center;
+}
+
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+th {
+  letter-spacing: 2px;
+}
+
+td {
+  letter-spacing: 1px;
+}
+
+tbody td {
+  text-align: center;
+}
+
+tfoot th {
+  text-align: right;
+}
+
+th, td {
+  border: 1px solid black;
+  height:  50px;
+}
+
+label {
+	font-size: 18px;
+	padding: 10px;
+	display: inline-block;
+  	width: 250px;
+  	text-align: right;
+}
+
+input {
+	display: inline-block;
+	border: 2px solid #ccc;
+	width: 50%;
+	padding: 10px;
+	margin: 10px auto;
+	border-radius: 5px;
+}
+button {
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	align:  center;
+}
+button:hover{
+	opacity: .7;
+}

@@ -1,0 +1,2 @@
+﻿  Source.cpp
+I:\CStutorial\Cprog\ErrTestString\ErrTestString\Source.cpp(18,9): error C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
