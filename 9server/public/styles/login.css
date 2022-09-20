@@ -1,0 +1,197 @@
+@keyframes slideInFromAbove {
+  0% {
+    transform: translateY(-100vh);
+  }
+
+  80% {
+    transform: translateY(1vh);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromBottom {
+  0% {
+    transform: translateY(100vh);
+  }
+
+  80% {
+    transform: translateY(-1vh);
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes mainAppear {
+  0% {
+    height: 0;
+  }
+
+  100% {
+    height: 134px;
+    opacity: 1;
+  }
+}
+
+@keyframes footerAppear {
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes spin {
+  0% {
+    transform: translate3d(-50%, -50%, 0) rotate(0deg);
+  }
+
+  100% {
+    transform: translate3d(-50%, -50%, 0) rotate(360deg);
+  }
+}
+
+body {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  --slideSpeed: 0.3s;
+  --startBefore: 0.15s;
+}
+
+header {
+  pointer-events: none;
+  user-select: none;
+  display: flex;
+  flex-direction: row;
+}
+
+header>* {
+  opacity: 0;
+  font-size: 50px;
+  margin: 0px 12px 0px 12px;
+}
+
+header>*:first-child {
+  animation: var(--slideSpeed) slideInFromAbove ease-out;
+  animation-fill-mode: forwards;
+}
+
+header>*:first-child+* {
+  animation: var(--slideSpeed) slideInFromBottom ease-out;
+  animation-delay: calc((var(--slideSpeed) - var(--startBefore)) * 1);
+  animation-fill-mode: forwards;
+}
+
+header>*:first-child+*+* {
+  animation: var(--slideSpeed) slideInFromAbove ease-out;
+  animation-delay: calc((var(--slideSpeed) - var(--startBefore)) * 2);
+  animation-fill-mode: forwards;
+}
+
+header>*:first-child+*+*+* {
+  animation: var(--slideSpeed) slideInFromBottom ease-out;
+  animation-delay: calc((var(--slideSpeed) - var(--startBefore)) * 3);
+  animation-fill-mode: forwards;
+}
+
+header>*:first-child+*+*+*+* {
+  animation: var(--slideSpeed) slideInFromAbove ease-out;
+  animation-delay: calc((var(--slideSpeed) - var(--startBefore)) * 4);
+  animation-fill-mode: forwards;
+}
+
+main {
+  height: 0;
+  opacity: 0;
+  animation: 0.1s mainAppear ease-out;
+  animation-delay: calc((var(--slideSpeed) - var(--startBefore)) * 6);
+  animation-fill-mode: forwards;
+  transition: height 0.1s;
+}
+
+#longName {
+  pointer-events: none;
+  user-select: none;
+  border-top: 1px solid black;
+  padding: 10px 5px 6px 5px;
+}
+
+form {
+  --borderColor: 1px solid rgb(180, 180, 180);
+  --borderColorActive: 1px solid rgb(130, 130, 130);
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px 5px 10px;
+  border: var(--borderColor);
+  border-radius: 5px;
+}
+
+form>* {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: var(--borderColor);
+}
+
+input[type="submit"] {
+  background-color: white;
+  transition: background-color 0.15s;
+  border: var(--borderColor);
+  margin: 0px 50px 5px 50px;
+}
+
+input[type="submit"]:hover {
+  background-color: #F8F8F8;
+}
+
+input[type="submit"]:active {
+  background-color: #F0F0F0;
+}
+
+#spin {
+  position: absolute;
+  bottom: 0px;
+  right: 12px;
+  animation: 0.5s linear infinite spin;
+  animation-play-state: inherit;
+  border: solid 2px #cfd0d1;
+  border-bottom-color: black;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  will-change: transform;
+}
+
+#loginFail {
+  opacity: 0;
+  color: indianred;
+  margin-top: 12px;
+}
+
+footer {
+  pointer-events: none;
+  position: absolute;
+  bottom: 15vh;
+  opacity: 0;
+  animation: 1s footerAppear ease-out;
+  animation-delay: calc((var(--slideSpeed) - var(--startBefore)) * 8);
+  animation-fill-mode: forwards;
+}
+
+@media screen and (max-height: 400px) {
+  footer {
+    display: none;
+  }
+}

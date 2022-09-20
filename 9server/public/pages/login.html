@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SIGHS - Login</title>
+  <link rel="stylesheet" href="/styles/global.css">
+  <link rel="stylesheet" href="/styles/login.css">
+  <script src="/scripts/login.mjs" type="module" defer></script>
+</head>
+
+<body>
+  <header>
+    <h1>S</h1>
+    <h1>I</h1>
+    <h1>G</h1>
+    <h1>H</h1>
+    <h1>S</h1>
+  </header>
+
+  <main>
+    <!--div>
+      Smart&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;IoT&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Green&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;House&nbsp;&nbsp;&nbsp;&nbsp;System
+    </div-->
+    <div id="longName">Smart IoT Green House System</div>
+    <form id="loginForm">
+      <input type="text" autocomplete="username" id="nameInput" placeholder="username" tabindex="1" required>
+      <input type="password" autocomplete="current-password" id="passwordInput" placeholder="password" tabindex="2" required>
+      <div id="spin" hidden></div>
+      <input type="submit" id="submitButton" value="Login">
+    </form>
+  </main>
+  <div id="loginFail">Authorisation denied</div>
+  <footer>A project for the APT 2022 "IoT Smart Challenge for Agri-Tech Sector" project competition</footer>
+</body>
+
+</html>

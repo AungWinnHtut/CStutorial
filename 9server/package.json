@@ -1,0 +1,23 @@
+{
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node . --dev",
+    "start": "node ."
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "chalk": "^5.0.1",
+    "chokidar": "^3.5.3",
+    "graphql": "^16.6.0",
+    "jose": "^4.9.0",
+    "mongoose": "^6.5.2",
+    "ws": "^8.8.1"
+  },
+  "devDependencies": {
+    "@types/bcryptjs": "^2.4.2",
+    "@types/node": "^18.7.2",
+    "@types/ws": "^8.5.3",
+    "chart.js": "^3.9.1"
+  }
+}
