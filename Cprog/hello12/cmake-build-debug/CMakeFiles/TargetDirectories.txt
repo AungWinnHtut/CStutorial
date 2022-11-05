@@ -1,0 +1,3 @@
+I:/CStutorial/Cprog/hello12/cmake-build-debug/CMakeFiles/hello12.dir
+I:/CStutorial/Cprog/hello12/cmake-build-debug/CMakeFiles/edit_cache.dir
+I:/CStutorial/Cprog/hello12/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,6 @@
+﻿  Source.cpp
+I:\CStutorial\Cprog\funrefexample\Source.cpp(52,11): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+I:\CStutorial\Cprog\funrefexample\Source.cpp(53,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+I:\CStutorial\Cprog\funrefexample\Source.cpp(57,11): warning C4244: 'initializing': conversion from 'double' to 'int', possible loss of data
+I:\CStutorial\Cprog\funrefexample\Source.cpp(58,9): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  funrefexample.vcxproj -> I:\CStutorial\Cprog\funrefexample\x64\Debug\funrefexample.exe

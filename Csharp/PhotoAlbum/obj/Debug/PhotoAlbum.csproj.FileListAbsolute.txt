@@ -1,0 +1,11 @@
+I:\CStutorial\Csharp\PhotoAlbum\bin\Debug\PhotoAlbum.exe.config
+I:\CStutorial\Csharp\PhotoAlbum\bin\Debug\PhotoAlbum.exe
+I:\CStutorial\Csharp\PhotoAlbum\bin\Debug\PhotoAlbum.pdb
+I:\CStutorial\Csharp\PhotoAlbum\obj\Debug\PhotoAlbum.csproj.AssemblyReference.cache
+I:\CStutorial\Csharp\PhotoAlbum\obj\Debug\PhotoAlbum.csproj.SuggestedBindingRedirects.cache
+I:\CStutorial\Csharp\PhotoAlbum\obj\Debug\PhotoAlbum.frmPhotoAlbum.resources
+I:\CStutorial\Csharp\PhotoAlbum\obj\Debug\PhotoAlbum.Properties.Resources.resources
+I:\CStutorial\Csharp\PhotoAlbum\obj\Debug\PhotoAlbum.csproj.GenerateResource.cache
+I:\CStutorial\Csharp\PhotoAlbum\obj\Debug\PhotoAlbum.csproj.CoreCompileInputs.cache
+I:\CStutorial\Csharp\PhotoAlbum\obj\Debug\PhotoAlbum.exe
+I:\CStutorial\Csharp\PhotoAlbum\obj\Debug\PhotoAlbum.pdb

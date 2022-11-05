@@ -1,0 +1,10 @@
+﻿  Source.cpp
+I:\CStutorial\Cprog\ISBN13\Source.cpp(11,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+I:\CStutorial\Cprog\ISBN13\Source.cpp(11,9): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+I:\CStutorial\Cprog\ISBN13\Source.cpp(12,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+I:\CStutorial\Cprog\ISBN13\Source.cpp(12,9): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+I:\CStutorial\Cprog\ISBN13\Source.cpp(13,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+I:\CStutorial\Cprog\ISBN13\Source.cpp(13,9): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+I:\CStutorial\Cprog\ISBN13\Source.cpp(14,9): warning C4477: 'printf' : format string '%x' requires an argument of type 'unsigned int', but variadic argument 1 has type 'int *'
+I:\CStutorial\Cprog\ISBN13\Source.cpp(14,9): warning C4313: 'printf': '%x' in format string conflicts with argument 1 of type 'int *'
+  ISBN13.vcxproj -> I:\CStutorial\Cprog\ISBN13\x64\Debug\ISBN13.exe

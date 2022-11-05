@@ -1,0 +1,12 @@
+I:\CStutorial\Csharp\HelloWorld\bin\Debug\HelloWorld.exe.config
+I:\CStutorial\Csharp\HelloWorld\bin\Debug\HelloWorld.exe
+I:\CStutorial\Csharp\HelloWorld\bin\Debug\HelloWorld.pdb
+I:\CStutorial\Csharp\HelloWorld\obj\Debug\HelloWorld.csproj.AssemblyReference.cache
+I:\CStutorial\Csharp\HelloWorld\obj\Debug\HelloWorld.csproj.SuggestedBindingRedirects.cache
+I:\CStutorial\Csharp\HelloWorld\obj\Debug\HelloWorld.frmHello.resources
+I:\CStutorial\Csharp\HelloWorld\obj\Debug\HelloWorld.Properties.Resources.resources
+I:\CStutorial\Csharp\HelloWorld\obj\Debug\HelloWorld.csproj.GenerateResource.cache
+I:\CStutorial\Csharp\HelloWorld\obj\Debug\HelloWorld.csproj.CoreCompileInputs.cache
+I:\CStutorial\Csharp\HelloWorld\obj\Debug\HelloWorld.exe
+I:\CStutorial\Csharp\HelloWorld\obj\Debug\HelloWorld.pdb
+I:\CStutorial\Csharp\HelloWorld\obj\Debug\HelloWorld.frmLogin.resources

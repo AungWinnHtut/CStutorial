@@ -1,0 +1,17 @@
+I:\CStutorial\Csharp\FileIO\bin\Debug\net6.0-windows\FileIO.exe
+I:\CStutorial\Csharp\FileIO\bin\Debug\net6.0-windows\FileIO.deps.json
+I:\CStutorial\Csharp\FileIO\bin\Debug\net6.0-windows\FileIO.runtimeconfig.json
+I:\CStutorial\Csharp\FileIO\bin\Debug\net6.0-windows\FileIO.dll
+I:\CStutorial\Csharp\FileIO\bin\Debug\net6.0-windows\FileIO.pdb
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.csproj.AssemblyReference.cache
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.frmFileIO.resources
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.csproj.GenerateResource.cache
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.GeneratedMSBuildEditorConfig.editorconfig
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.AssemblyInfoInputs.cache
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.AssemblyInfo.cs
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.csproj.CoreCompileInputs.cache
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.dll
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\refint\FileIO.dll
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.pdb
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\FileIO.genruntimeconfig.cache
+I:\CStutorial\Csharp\FileIO\obj\Debug\net6.0-windows\ref\FileIO.dll

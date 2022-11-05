@@ -1,0 +1,12 @@
+I:\CStutorial\Csharp\Test\bin\Debug\Test.exe.config
+I:\CStutorial\Csharp\Test\bin\Debug\Test.exe
+I:\CStutorial\Csharp\Test\bin\Debug\Test.pdb
+I:\CStutorial\Csharp\Test\obj\Debug\Test.csproj.AssemblyReference.cache
+I:\CStutorial\Csharp\Test\obj\Debug\Test.csproj.SuggestedBindingRedirects.cache
+I:\CStutorial\Csharp\Test\obj\Debug\Test.Properties.Resources.resources
+I:\CStutorial\Csharp\Test\obj\Debug\Test.csproj.GenerateResource.cache
+I:\CStutorial\Csharp\Test\obj\Debug\Test.csproj.CoreCompileInputs.cache
+I:\CStutorial\Csharp\Test\obj\Debug\Test.exe
+I:\CStutorial\Csharp\Test\obj\Debug\Test.pdb
+I:\CStutorial\Csharp\Test\obj\Debug\Test.frmPhotoAlbum.resources
+I:\CStutorial\Csharp\Test\obj\Debug\Test.frmSignIn.resources
