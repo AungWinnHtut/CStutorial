@@ -100,7 +100,7 @@
             this.Controls.Add(this.txtFilePath);
             this.Controls.Add(this.btnFileCheck);
             this.Name = "frmFileIO";
-            this.Text = "Form1";
+            this.Text = "File IO";
             this.ResumeLayout(false);
             this.PerformLayout();
 
