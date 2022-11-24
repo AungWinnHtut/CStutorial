@@ -1,2 +1,3 @@
 ﻿  Source.cpp
-  Command.vcxproj -> I:\CStutorial\Csharp\Command\x64\Debug\Command.exe
+I:\CStutorial\Cprog\Command\Source.cpp(87): warning C4715: 'funMENU': not all control paths return a value
+  Command.vcxproj -> I:\CStutorial\Cprog\Command\x64\Debug\Command.exe

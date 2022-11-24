@@ -1,0 +1,17 @@
+I:\CStutorial\Csharp\TextEditor01\bin\Debug\net6.0-windows\TextEditor01.exe
+I:\CStutorial\Csharp\TextEditor01\bin\Debug\net6.0-windows\TextEditor01.deps.json
+I:\CStutorial\Csharp\TextEditor01\bin\Debug\net6.0-windows\TextEditor01.runtimeconfig.json
+I:\CStutorial\Csharp\TextEditor01\bin\Debug\net6.0-windows\TextEditor01.dll
+I:\CStutorial\Csharp\TextEditor01\bin\Debug\net6.0-windows\TextEditor01.pdb
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.csproj.AssemblyReference.cache
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.frmEditor.resources
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.csproj.GenerateResource.cache
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.GeneratedMSBuildEditorConfig.editorconfig
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.AssemblyInfoInputs.cache
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.AssemblyInfo.cs
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.csproj.CoreCompileInputs.cache
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.dll
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\refint\TextEditor01.dll
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.pdb
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\TextEditor01.genruntimeconfig.cache
+I:\CStutorial\Csharp\TextEditor01\obj\Debug\net6.0-windows\ref\TextEditor01.dll

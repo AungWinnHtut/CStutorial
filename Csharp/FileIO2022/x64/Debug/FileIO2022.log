@@ -1,0 +1,7 @@
+﻿  FileIO.cpp
+I:\CStutorial\Csharp\FileIO2022\FileIO.cpp(11,45): warning C4305: 'initializing': truncation from 'double' to 'float'
+I:\CStutorial\Csharp\FileIO2022\FileIO.cpp(12,46): warning C4305: 'initializing': truncation from 'double' to 'float'
+I:\CStutorial\Csharp\FileIO2022\FileIO.cpp(8,8): warning C4101: 'fo2': unreferenced local variable
+I:\CStutorial\Csharp\FileIO2022\FileIO.cpp(6,8): warning C4101: 'fo': unreferenced local variable
+I:\CStutorial\Csharp\FileIO2022\FileIO.cpp(10,8): warning C4101: 'A': unreferenced local variable
+  FileIO2022.vcxproj -> I:\CStutorial\Csharp\FileIO2022\x64\Debug\FileIO2022.exe
