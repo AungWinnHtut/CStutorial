@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\CStutorial\\Csharp\\QuizTest\\QuizTest.csproj": {}
+    "E:\\CStutorial\\Csharp\\QuizTest\\QuizTest.csproj": {}
   },
   "projects": {
-    "I:\\CStutorial\\Csharp\\QuizTest\\QuizTest.csproj": {
+    "E:\\CStutorial\\Csharp\\QuizTest\\QuizTest.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\CStutorial\\Csharp\\QuizTest\\QuizTest.csproj",
+        "projectUniqueName": "E:\\CStutorial\\Csharp\\QuizTest\\QuizTest.csproj",
         "projectName": "QuizTest",
-        "projectPath": "I:\\CStutorial\\Csharp\\QuizTest\\QuizTest.csproj",
+        "projectPath": "E:\\CStutorial\\Csharp\\QuizTest\\QuizTest.csproj",
         "packagesPath": "C:\\Users\\Dr. Aung Win Htut\\.nuget\\packages\\",
-        "outputPath": "I:\\CStutorial\\Csharp\\QuizTest\\obj\\",
+        "outputPath": "E:\\CStutorial\\Csharp\\QuizTest\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

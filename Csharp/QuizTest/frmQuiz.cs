@@ -17,8 +17,8 @@ namespace QuizTest
             lblQuestion.Text = "The longest river";
             lblLeft.Text = "Ayawaddy";
             lblRight.Text = "Nile";
-            picLeft.Image = Image.FromFile("IR.jpg");
-            picRight.Image = Image.FromFile("N.png");
+            picLeft.Image = Image.FromFile(@"C:\quiz\IR.jpg");
+            picRight.Image = Image.FromFile(@"C:\quiz\N.png");
 
         }
 

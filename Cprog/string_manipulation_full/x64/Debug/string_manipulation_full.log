@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\CStutorial\Cprog\string_manipulation_full\Source.cpp(22,8): warning C4101: 'input3': unreferenced local variable
+  string_manipulation_full.vcxproj -> E:\CStutorial\Cprog\string_manipulation_full\x64\Debug\string_manipulation_full.exe

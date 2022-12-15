@@ -1,0 +1,12 @@
+E:\CStutorial\Csharp\QuizApp3\bin\Debug\QuizApp3.exe.config
+E:\CStutorial\Csharp\QuizApp3\bin\Debug\QuizApp3.exe
+E:\CStutorial\Csharp\QuizApp3\bin\Debug\QuizApp3.pdb
+E:\CStutorial\Csharp\QuizApp3\obj\Debug\QuizApp3.csproj.AssemblyReference.cache
+E:\CStutorial\Csharp\QuizApp3\obj\Debug\QuizApp3.csproj.SuggestedBindingRedirects.cache
+E:\CStutorial\Csharp\QuizApp3\obj\Debug\QuizApp3.frmQuiz1.resources
+E:\CStutorial\Csharp\QuizApp3\obj\Debug\QuizApp3.Properties.Resources.resources
+E:\CStutorial\Csharp\QuizApp3\obj\Debug\QuizApp3.csproj.GenerateResource.cache
+E:\CStutorial\Csharp\QuizApp3\obj\Debug\QuizApp3.csproj.CoreCompileInputs.cache
+E:\CStutorial\Csharp\QuizApp3\obj\Debug\QuizApp3.exe
+E:\CStutorial\Csharp\QuizApp3\obj\Debug\QuizApp3.pdb
+E:\CStutorial\Csharp\QuizApp3\obj\Debug\QuizApp3.frmQuiz2.resources
