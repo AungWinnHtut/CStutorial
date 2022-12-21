@@ -1,0 +1,137 @@
+[
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\2022020801PhotoAlbum\\2022020801PhotoAlbum\\2022020801PhotoAlbum.cpp.obj -c E:\\CStutorial\\Cprog\\2022020801PhotoAlbum\\2022020801PhotoAlbum\\2022020801PhotoAlbum.cpp",
+  "file": "E:/CStutorial/Cprog/2022020801PhotoAlbum/2022020801PhotoAlbum/2022020801PhotoAlbum.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdvantureGold\\AdvantureGold\\game1.cpp.obj -c E:\\CStutorial\\Cprog\\AdvantureGold\\AdvantureGold\\game1.cpp",
+  "file": "E:/CStutorial/Cprog/AdvantureGold/AdvantureGold/game1.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\game_external.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\game_external.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/game_external.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\game_main.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\game_main.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/game_main.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\game_mapgen.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\game_mapgen.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/game_mapgen.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\game_menu.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\game_menu.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/game_menu.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\game_view.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\game_view.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/game_view.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\main.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\main.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/main.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\utils_general.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\utils_general.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/utils_general.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\utils_menu.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\utils_menu.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/utils_menu.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\utils_rng.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\utils_rng.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/utils_rng.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AdventureGame\\src\\utils_terminal.cpp.obj -c E:\\CStutorial\\Cprog\\AdventureGame\\src\\utils_terminal.cpp",
+  "file": "E:/CStutorial/Cprog/AdventureGame/src/utils_terminal.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AofCircles\\AofCircles\\functions.cpp.obj -c E:\\CStutorial\\Cprog\\AofCircles\\AofCircles\\functions.cpp",
+  "file": "E:/CStutorial/Cprog/AofCircles/AofCircles/functions.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\AofCircles\\AofCircles\\Source.cpp.obj -c E:\\CStutorial\\Cprog\\AofCircles\\AofCircles\\Source.cpp",
+  "file": "E:/CStutorial/Cprog/AofCircles/AofCircles/Source.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\BoxStructure\\BoxStructure\\Source.cpp.obj -c E:\\CStutorial\\Cprog\\BoxStructure\\BoxStructure\\Source.cpp",
+  "file": "E:/CStutorial/Cprog/BoxStructure/BoxStructure/Source.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\Data1\\Data1\\Data1.cpp.obj -c E:\\CStutorial\\Cprog\\Data1\\Data1\\Data1.cpp",
+  "file": "E:/CStutorial/Cprog/Data1/Data1/Data1.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\Data1\\Data1\\oldversion1.cpp.obj -c E:\\CStutorial\\Cprog\\Data1\\Data1\\oldversion1.cpp",
+  "file": "E:/CStutorial/Cprog/Data1/Data1/oldversion1.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\ERRtest\\ERRtest\\Source.cpp.obj -c E:\\CStutorial\\Cprog\\ERRtest\\ERRtest\\Source.cpp",
+  "file": "E:/CStutorial/Cprog/ERRtest/ERRtest/Source.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\FileIO\\FileIO\\FileIO.cpp.obj -c E:\\CStutorial\\Cprog\\FileIO\\FileIO\\FileIO.cpp",
+  "file": "E:/CStutorial/Cprog/FileIO/FileIO/FileIO.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\FileIOw\\FileIOw\\Source.cpp.obj -c E:\\CStutorial\\Cprog\\FileIOw\\FileIOw\\Source.cpp",
+  "file": "E:/CStutorial/Cprog/FileIOw/FileIOw/Source.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\Hello_World\\Hello_World\\Source.cpp.obj -c \"E:\\CStutorial\\Cprog\\Hello World\\Hello World\\Source.cpp\"",
+  "file": "E:/CStutorial/Cprog/Hello World/Hello World/Source.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\HelloWorld\\HelloWorld\\Area.cpp.obj -c E:\\CStutorial\\Cprog\\HelloWorld\\HelloWorld\\Area.cpp",
+  "file": "E:/CStutorial/Cprog/HelloWorld/HelloWorld/Area.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\HelloWorld\\HelloWorld\\Source.cpp.obj -c E:\\CStutorial\\Cprog\\HelloWorld\\HelloWorld\\Source.cpp",
+  "file": "E:/CStutorial/Cprog/HelloWorld/HelloWorld/Source.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\Project1\\Project1\\Source.cpp.obj -c E:\\CStutorial\\Cprog\\Project1\\Project1\\Source.cpp",
+  "file": "E:/CStutorial/Cprog/Project1/Project1/Source.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\recursion\\recursion\\Source.cpp.obj -c E:\\CStutorial\\Cprog\\recursion\\recursion\\Source.cpp",
+  "file": "E:/CStutorial/Cprog/recursion/recursion/Source.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\G__~1.EXE  @CMakeFiles/Cprog.dir/includes_CXX.rsp -g -o CMakeFiles\\Cprog.dir\\Structure.cpp\\Structure.cpp\\Source.cpp.obj -c E:\\CStutorial\\Cprog\\Structure.cpp\\Structure.cpp\\Source.cpp",
+  "file": "E:/CStutorial/Cprog/Structure.cpp/Structure.cpp/Source.cpp"
+},
+{
+  "directory": "E:/CStutorial/Cprog/build",
+  "command": "C:\\PROGRA~1\\CODEBL~1\\MinGW\\bin\\gcc.exe  @CMakeFiles/Cprog.dir/includes_C.rsp -g -o CMakeFiles\\Cprog.dir\\arduino.c.obj -c E:\\CStutorial\\Cprog\\arduino.c",
+  "file": "E:/CStutorial/Cprog/arduino.c"
+}
+]

@@ -129,6 +129,9 @@
   <ItemGroup>
     <ClCompile Include="simpletron_vm_v1.cpp" />
     <ClCompile Include="simpletron_vm_v2.cpp" />
+    <ClCompile Include="simpletron_vm_v3.cpp" />
+    <ClCompile Include="str.cpp" />
+    <ClCompile Include="timetest.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

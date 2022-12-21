@@ -15,7 +15,7 @@
 
 
 
-int main()
+int mainv2()
 {
 	int memory[100] = { 0 };
 	int accumulator = 0;
@@ -41,7 +41,7 @@ int main()
 	int index = 0;
 	FILE* fin;
 	fopen_s(&fin, "D:\\test.txt", "r");
-	printf("EOF = %d\n\n", EOF);
+	//printf("EOF = %d\n\n", EOF);
 	if (fin != NULL)
 	{
 		while (fscanf_s(fin, "%d", &memory[index++]) > 0)

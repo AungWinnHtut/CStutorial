@@ -27,7 +27,7 @@ int mainv1()
 	memory[0] = 1050;
 	memory[1] = 2050;
 	memory[2] = 1051;
-	memory[3] = 3051;
+	memory[3] = 3351;
 	memory[4] = 2152;
 	memory[5] = 1152;
 	memory[6] = 4300;

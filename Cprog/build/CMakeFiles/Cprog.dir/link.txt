@@ -1,0 +1,3 @@
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E rm -f CMakeFiles\Cprog.dir/objects.a
+C:\PROGRA~1\CODEBL~1\MinGW\bin\ar.exe qc CMakeFiles\Cprog.dir/objects.a @CMakeFiles\Cprog.dir\objects1.rsp
+C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE -g -Wl,--whole-archive CMakeFiles\Cprog.dir/objects.a -Wl,--no-whole-archive -o Cprog.exe -Wl,--out-implib,libCprog.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\Cprog.dir\linklibs.rsp

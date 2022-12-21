@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "shadertest", "shadertest.csproj", "{51A0FA46-6209-4E38-AC6B-BE5D20A04A09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51A0FA46-6209-4E38-AC6B-BE5D20A04A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A0FA46-6209-4E38-AC6B-BE5D20A04A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A0FA46-6209-4E38-AC6B-BE5D20A04A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A0FA46-6209-4E38-AC6B-BE5D20A04A09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E83F6C1B-54A4-47BB-AEF8-00406D46B4CE}
+	EndGlobalSection
+EndGlobal
