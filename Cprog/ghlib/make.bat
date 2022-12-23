@@ -1,4 +1,3 @@
-
 cls
 mingw32-make
-test.exe
+editorv2.exe

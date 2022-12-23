@@ -1,3 +1,5 @@
+#include <stdio.h>
+#include <conio.h>
 
 int strlen_k(const char *str)
 {
@@ -59,4 +61,23 @@ void strcat_k(char *destination, const char *source)
     {
         destination[dl + i] = source[i];
     }
+}
+
+char *gets_k(char *str, int buffer_size)
+{
+    char ch = '\0';
+    int i = 0;
+    do
+    {
+        ch = _getch();
+        putchar(ch);
+        if (ch != '\n' && ch != '\r')
+        {
+            str[i++] = ch; // str[0]=ch; i++;
+        }
+
+    } while (ch != '\r' && i < buffer_size); // off by one error => 0 to buffer_size - 1
+    str[i] = '\0';
+    printf("\n"); // need to enter new line
+    return str;
 }

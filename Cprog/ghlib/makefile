@@ -1,5 +1,5 @@
-test.exe: test.c
-	gcc test.c -o test.exe
+test.exe: editorv2.c
+	gcc editorv2.c -o editorv2.exe
 
 
 	
