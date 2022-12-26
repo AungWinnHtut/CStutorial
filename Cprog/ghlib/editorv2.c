@@ -61,4 +61,3 @@ void split_command(char *line, char *cmd, const char *command, int command_lengt
     for (int i = 0; i <= command_length - cmd_index; i++)
         cmd[i] = command[i + cmd_index];
 }
-}

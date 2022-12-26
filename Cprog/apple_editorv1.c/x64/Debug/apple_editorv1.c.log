@@ -1,0 +1,5 @@
+﻿  apple_editorv1.cpp
+  ghlib.c
+E:\CStutorial\Cprog\apple_editorv1.c\ghlib.c(121,16): warning C4013: 'c2i_k' undefined; assuming extern returning int
+E:\CStutorial\Cprog\apple_editorv1.c\ghlib.c(129,30): warning C4013: 'pow_k' undefined; assuming extern returning int
+  apple_editorv1.c.vcxproj -> E:\CStutorial\Cprog\apple_editorv1.c\x64\Debug\apple_editorv1.c.exe
