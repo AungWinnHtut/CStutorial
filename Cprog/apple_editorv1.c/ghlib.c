@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <conio.h>
-
+ 
 int strlen_k(const char* str)
 {
     int count = 0;

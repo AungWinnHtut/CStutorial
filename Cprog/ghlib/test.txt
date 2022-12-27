@@ -1,0 +1,74 @@
+
+Host Name:                 DESKTOP-VP4UOFB
+OS Name:                   Microsoft Windows 10 Pro
+OS Version:                10.0.19044 N/A Build 19044
+OS Manufacturer:           Microsoft Corporation
+OS Configuration:          Standalone Workstation
+OS Build Type:             Multiprocessor Free
+Registered Owner:          Windows User
+Registered Organization:   
+Product ID:                00331-10000-00001-AA150
+Original Install Date:     7/4/2022, 1:49:54 AM
+System Boot Time:          12/22/2022, 12:26:15 AM
+System Manufacturer:       ASUS
+System Model:              System Product Name
+System Type:               x64-based PC
+Processor(s):              1 Processor(s) Installed.
+                           [01]: Intel64 Family 6 Model 165 Stepping 5 GenuineIntel ~2904 Mhz
+BIOS Version:              American Megatrends Inc. 1017, 7/12/2021
+Windows Directory:         C:\WINDOWS
+System Directory:          C:\WINDOWS\system32
+Boot Device:               \Device\HarddiskVolume8
+System Locale:             en-us;English (United States)
+Input Locale:              en-us;English (United States)
+Time Zone:                 (UTC+06:30) Yangon (Rangoon)
+Total Physical Memory:     32,549 MB
+Available Physical Memory: 15,146 MB
+Virtual Memory: Max Size:  102,181 MB
+Virtual Memory: Available: 71,390 MB
+Virtual Memory: In Use:    30,791 MB
+Page File Location(s):     E:\pagefile.sys
+Domain:                    WORKGROUP
+Logon Server:              \\DESKTOP-VP4UOFB
+Hotfix(s):                 15 Hotfix(s) Installed.
+                           [01]: KB5020872
+                           [02]: KB4562830
+                           [03]: KB4570334
+                           [04]: KB4580325
+                           [05]: KB4586864
+                           [06]: KB5003791
+                           [07]: KB5007401
+                           [08]: KB5012170
+                           [09]: KB5021233
+                           [10]: KB5014035
+                           [11]: KB5014671
+                           [12]: KB5015895
+                           [13]: KB5016705
+                           [14]: KB5018506
+                           [15]: KB5020372
+Network Card(s):           7 NIC(s) Installed.
+                           [01]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: Ethernet
+                                 Status:          Hardware not present
+                           [02]: TAP-Windows Adapter V9
+                                 Connection Name: Local Area Connection
+                                 Status:          Media disconnected
+                           [03]: ExpressVPN TUN Driver
+                                 Connection Name: Local Area Connection 2
+                                 Status:          Media disconnected
+                           [04]: ExpressVPN TAP Adapter
+                                 Connection Name: Ethernet 2
+                                 Status:          Hardware not present
+                           [05]: Intel(R) Ethernet Connection (14) I219-V
+                                 Connection Name: s
+                                 DHCP Enabled:    No
+                                 IP address(es)
+                                 [01]: 192.168.0.222
+                                 [02]: fe80::4560:e2d9:8409:4e0e
+                           [06]: Kaspersky VPN
+                                 Connection Name: Local Area Connection 3
+                                 Status:          Media disconnected
+                           [07]: VirtualBox Host-Only Ethernet Adapter
+                                 Connection Name: VirtualBox Host-Only Network
+                                 Status:          Hardware not present
+Hyper-V Requirements:      A hypervisor has been detected. Features required for Hyper-V will not be displayed.
