@@ -1,0 +1,510 @@
+commit d9f1217f558945185fa7d8436a127b701164fe1b
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Mon Jan 2 19:06:17 2023 +0630
+
+    add new graphic programming files
+
+commit c1d2918c29b4005a30691476be4d08edb3022020
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Dec 27 20:21:06 2022 +0630
+
+    adding new python examples
+
+commit 25aa22201321e443ffed865329550fd0d58b5967
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Mon Dec 26 12:01:23 2022 +0630
+
+    update new examples
+
+commit b019bfe010849a28929719b0f0168d0c005966ca
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Dec 23 20:44:41 2022 +0630
+
+    update new examples
+
+commit 2bb90c4ec13c0677adf4fc340faf2e341776cb3b
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Dec 23 20:40:21 2022 +0630
+
+    adding python examples
+
+commit 9d8230c0c6e204f5382aeb1096f284a447bddbf1
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Wed Dec 21 19:25:58 2022 +0630
+
+    update and upload all python codes
+
+commit bf10d8a94672b203a000aeb0b55b02dcd2dd0032
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Thu Dec 15 19:55:58 2022 +0630
+
+    uploading and updating tutorials for students
+
+commit be2afbd5abf8f6bdd9153acb67341c399c987499
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sat Nov 26 20:01:13 2022 +0630
+
+    new python code
+
+commit 806f8f09603895c0753c5826168c92035a385cfd
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Thu Nov 24 10:14:58 2022 +0630
+
+    adding new examples for 11-2022
+
+commit 369a8dfa2b0d74cd59b18b2a25b7cc3a3f7af91a
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Wed Nov 9 20:16:46 2022 +0630
+
+    moving command c projects
+
+commit 3114596dcd1d40c3d340d60f6d22e4084ccc8839
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sat Nov 5 09:05:32 2022 +0630
+
+    new update
+
+commit ac2c1b784511614c645c0efe48eec504eb0b43fe
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Sep 20 23:18:11 2022 +0630
+
+    find by id and name
+
+commit e62d9febf27f9a78e965ec3e99493bbee7051199
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Sep 18 21:33:47 2022 +0630
+
+    add 7server and projectfiles
+
+commit 3cf41eeedb208acedb91131795a2911db5247947
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Sep 13 18:49:04 2022 +0630
+
+    new server 6 added
+
+commit 5295b5d356a600c0fb38b78933f28ff4701fd447
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Aug 30 18:30:59 2022 +0630
+
+    add new server
+
+commit 2c9d34b53db918714a33a9ade5874de7549cd7f4
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Aug 16 16:39:39 2022 +0630
+
+    add duplicate.py
+
+commit e87408d9a17af2c930e4e1a0213701083c64de33
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Aug 7 20:27:38 2022 +0630
+
+    add cipher c examples
+
+commit 454bb61eadf5ea99b0e0a2af3ccf8c8b4de3893d
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sat Aug 6 10:58:23 2022 +0630
+
+    arduino.c
+
+commit 9a7c3d518f9622c9aff5697130c86a17f66f655e
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sat Aug 6 10:58:09 2022 +0630
+
+    arduino.c
+
+commit cf7931495c6db151b806349b58797458873eec5f
+Merge: adb7db2 4b57721
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Jul 17 07:26:31 2022 +0630
+
+    Merge branch 'main' of https://github.com/AungWinnHtut/CStutorial
+
+commit adb7db235c6ee7abf1102d669bc88cb316788a69
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Jul 17 07:26:01 2022 +0630
+
+    add new arduino projects
+
+commit 4b57721b814e9c2d288af64a979704dd70f14ddb
+Author: Dr. Aung Win Htut <AungWinnHtut@users.noreply.github.com>
+Date:   Sat Jun 18 19:21:14 2022 +0630
+
+    lcd
+
+commit 866455481769aac03587ecc4f581ebea177f14f2
+Author: Dr. Aung Win Htut <AungWinnHtut@users.noreply.github.com>
+Date:   Thu Jun 16 21:45:41 2022 +0630
+
+    stepper motor encoder links
+
+commit 7bb32366ae02e8cac184f4e25332b97e097e609b
+Author: Dr. Aung Win Htut <AungWinnHtut@users.noreply.github.com>
+Date:   Wed Jun 15 21:01:53 2022 +0630
+
+    added stepper motor control code
+
+commit a3a28b7e31465a9f9544cd1318d2c3bfc060f7ce
+Author: Dr. Aung Win Htut <AungWinnHtut@users.noreply.github.com>
+Date:   Tue Jun 7 20:15:48 2022 +0630
+
+    added g code list
+
+commit 28ef0f1d2e754becc66d399618501febcfa6358a
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Jun 5 14:10:38 2022 +0630
+
+    add assembly
+
+commit ebe599afc4cd62a591cc7fcfdb99ecdc1aed0ff8
+Author: Dr. Aung Win Htut <AungWinnHtut@users.noreply.github.com>
+Date:   Sun Jun 5 13:42:56 2022 +0630
+
+    add a blog
+    
+    add a blog
+
+commit ccc2d32f64f011babe4f8c2fac60d16f4835e4af
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sat May 28 17:50:34 2022 +0630
+
+    change folder
+
+commit b27d50787b560ef371b18d9df5b4ef33ce932361
+Author: Dr. Aung Win Htut <AungWinnHtut@users.noreply.github.com>
+Date:   Sat May 28 17:48:56 2022 +0630
+
+    format
+    
+    format
+
+commit 046398cc80e813150b2a65cdfc98456bf8b5ed09
+Author: Dr. Aung Win Htut <AungWinnHtut@users.noreply.github.com>
+Date:   Sat May 28 17:48:19 2022 +0630
+
+    add cnc links
+    
+    cnc study links
+
+commit 6a951dfa7006e2598ac7954701860f5ffb346ea3
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Apr 19 18:45:49 2022 +0630
+
+    quiz python tuto
+    
+    quiz python tuto
+
+commit d809587dae72ea6af39a44682c7055fd4f3e40c1
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Apr 8 19:01:50 2022 +0630
+
+    listbox
+    
+    listbox
+
+commit cea197691c5cd2fa33b3604c98cda99fad3d7bc2
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Apr 1 19:01:59 2022 +0630
+
+    AreaOfCircle
+    
+    AreaOfCircle
+
+commit cd2a7f340ead3b33fc0b372e2b44650cca9e435e
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Thu Mar 31 19:05:20 2022 +0630
+
+    update browser
+    
+    update browser
+
+commit 1c3d6bf504b7cb78787c2e8e289379bfb0dab12f
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Mar 27 20:14:59 2022 +0630
+
+    add microbit hex files
+
+commit 693b93e78af15e3434b935ad1007556753d1da45
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Mar 27 20:13:16 2022 +0630
+
+    del
+
+commit 52adc48923980464c35bf098008d821707baf040
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Mar 27 20:10:47 2022 +0630
+
+    microbit hex files uploaded
+
+commit 785520b19fcc815c32e7d2460e947100690157b6
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Mar 27 13:44:59 2022 +0630
+
+    update exam system
+    
+    update exam system
+
+commit 10aae626b8022384be16a9f949bf65a7fb5495e9
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Mar 25 18:58:19 2022 +0630
+
+    Exam System Finished
+    
+    Exam System Finished
+
+commit f0bc4704342b6875ad3c6e12856fac1856712724
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Mar 22 18:42:56 2022 +0630
+
+    exam system update 2
+    
+    exam system update 2
+
+commit c12c95964425252a16cb436125b89d3a51034867
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Mar 18 18:52:51 2022 +0630
+
+    fun test 2 in CS
+    
+    fun test 2 in CS
+
+commit e4e9b4a836086104bb8578c04f2db00d33bdb511
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Thu Mar 17 19:00:05 2022 +0630
+
+    function test
+    
+    function test
+
+commit 22e3b6d4df76e068ae19f75e9157547e10fe541d
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Mon Mar 14 19:49:49 2022 +0630
+
+    MediaPlayer in CS
+    
+    MediaPlayer in CS
+
+commit 979fc2783c282d1496405a94e4424864f1d650ac
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Mar 8 19:00:56 2022 +0630
+
+    Unit Converter in CS
+    
+    Unit Converter in CS
+
+commit 6e89e232e8959b70c5a5a3904e6df994067de5b9
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Mon Mar 7 19:05:50 2022 +0630
+
+    array and ui test in cs
+    
+    https://pastebin.com/EeFeJ5Wr
+
+commit 989acc1e940342484090eb5bc3c75d16eda7a513
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Mar 4 23:53:02 2022 +0630
+
+    full game final
+    
+    full game final
+
+commit 59e81073eb2c06f91291e7896f5640a270fa8a1c
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Wed Mar 2 19:08:50 2022 +0630
+
+    Read Line by Line and Split
+    
+    Read Line by Line and Split
+
+commit fd4cc1170c08a5579b85b49f645a5c2c8bc3d179
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Mar 1 18:58:34 2022 +0630
+
+    Multiple Choice
+    
+    Multiple Choice
+
+commit b3cc7cea85125e7481b865ccdb725c43c4fb7a21
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Mon Feb 28 19:00:28 2022 +0630
+
+    Maths Quiz Final
+    
+    Maths Quiz Final
+
+commit d3075e6ee0ce1ec4409147a879e3c3b4c09bce6c
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Feb 25 18:56:22 2022 +0630
+
+    Math Exam updated
+    
+    Math Exam updated
+
+commit 157f2ff9d9c749d2e6032da80af5ac25729c6d07
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Thu Feb 24 19:25:01 2022 +0630
+
+    test end
+
+commit 36ff71c3d5fcd3b35d966508efce48b8e4f999b5
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Thu Feb 24 19:21:39 2022 +0630
+
+    test
+    
+    test
+
+commit 4f2e3f37302dd59e67d0fb0de7ebff639d57753e
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Wed Feb 23 18:55:29 2022 +0630
+
+    CS Exam and Login system
+
+commit 997e51c685098e72afa2701ee5e382437e98f4ca
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Mon Feb 21 00:27:31 2022 +0630
+
+    python game final quest
+
+commit 5a65de370df61efaf2b0f942f32e079bd7a4fcbe
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Feb 18 18:48:24 2022 +0630
+
+    File IO
+
+commit 2ac055a3fef54007c160c27fb389736764b6168a
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Feb 18 16:40:41 2022 +0630
+
+    loops tutorials
+
+commit af3208c3cf2573709ba32e1b2fd8d44d376e42fd
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Wed Feb 16 19:01:41 2022 +0630
+
+    add some more tutorials for python and 3 cards random game in csharp
+
+commit 693cc51f555bac13a4940c24be706f6c689f716d
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Wed Feb 16 10:19:43 2022 +0630
+
+    adding readme.md
+
+commit f5b8b4091bfee0630696a53586baf902d9a5d2b2
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Wed Feb 16 09:52:36 2022 +0630
+
+    arduin serial and three card cs game
+
+commit 6f1124da574b82c99c0ed809e7900d3dd5f45400
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Mon Feb 14 21:22:54 2022 +0630
+
+    cs fortune teller
+
+commit 4621002225754b8b40917d31f54c7527f2df429b
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Feb 13 14:06:06 2022 +0630
+
+    python game 2
+
+commit 46581349da5143f2e07f0bf3b4d6069316f45c93
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Thu Feb 10 19:05:01 2022 +0630
+
+    baydin 1
+
+commit d7db123e7b55232f9548661dafb84053dfd375c1
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Feb 8 00:36:59 2022 +0630
+
+    python for kids
+
+commit b5d54f930a0361a675522902e0f2985d0ffce604
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Mon Feb 7 18:59:30 2022 +0630
+
+    new cs code
+
+commit 05af199284874004c71e3d50c00b2756dc0b06e1
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Thu Feb 3 00:24:46 2022 +0630
+
+    adding new lessons for pythons and c
+
+commit bfe5ffb4097e28d7f7f9356afd668e909446863b
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Feb 1 21:08:12 2022 +0630
+
+    menu start
+
+commit fb2537232028fa4291085c2b9f04f4e5a21648e9
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Fri Jan 28 20:49:22 2022 +0630
+
+    char array testing
+
+commit b23df271bcece9ed6a87f4e4d33ee101e8b24582
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Thu Jan 27 21:00:15 2022 +0630
+
+    c pro intro array
+
+commit 0f1e35372f29cfcd44bd3ddffc5e31fd8e01b46e
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Jan 23 20:50:48 2022 +0630
+
+    Open File Dialog Text File for File Encryption
+
+commit 49191ed071872e41744936bf15c70e206585b7e9
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Wed Jan 19 21:25:45 2022 +0630
+
+    string encryption and decryption in c#
+
+commit aaefa55ba808ba8a50f5d62417453f98789f2934
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Tue Jan 18 20:47:48 2022 +0630
+
+    adding binary code 1
+
+commit 11946c1d62ea65c84ba106eb09501e6be88d55db
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Jan 16 23:48:16 2022 +0630
+
+    update
+
+commit 44cad224e66bb02943811c31bb35e01ef607036a
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Jan 16 20:41:24 2022 +0630
+
+    ceaser cipher proj
+
+commit ec97b67b6e02fde35410b656ea66ca644a3610e1
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sun Jan 16 20:03:03 2022 +0630
+
+    modified del key and backspace key and excel algo
+
+commit 0086f69fc56f1f520031410d07d589cc045f379b
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sat Jan 15 21:09:55 2022 +0630
+
+    image viewer - password char
+
+commit 30304c2343e8f82d81a94c4acb8488967ad51aeb
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sat Jan 15 19:32:05 2022 +0630
+
+    update hello.c
+
+commit c55e16c701dfade7200a27221475539378ea4c1d
+Author: Dr. Aung Win Htut <aungwinnhtut@gmail.com>
+Date:   Sat Jan 15 19:25:12 2022 +0630
+
+    add new hello.c file
+
+commit 88064812d8bd393595d454b76bce35db3f450525
+Author: Dr. Aung Win Htut <AungWinnHtut@users.noreply.github.com>
+Date:   Wed Jan 12 20:01:04 2022 +0630
+
+    Initial commit

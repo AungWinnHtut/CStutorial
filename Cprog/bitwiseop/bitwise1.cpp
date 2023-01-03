@@ -2,13 +2,13 @@
 
 void displayBits(unsigned int value); // prototype
 
-int main(void) {
+int main1(void) {
 	 unsigned int x = 0; // variable to hold user input
 	
 	printf("%s", "Enter a nonnegative int: ");
 	 scanf_s("%u", &x);	 
 	 displayBits(x);
-	
+	 return 0;
 }
 
  // display bits of an unsigned int value
@@ -24,12 +24,11 @@ int main(void) {
 		 value <<= 1; // shift value left by 1 
 		
 		 if (c % 8 == 0) { // output space after 8 bits
-			 putchar(' ');
-			
+			 putchar(' ');			
 		}
 		
 	}
 	
 	putchar('\n');
-	
+
 }

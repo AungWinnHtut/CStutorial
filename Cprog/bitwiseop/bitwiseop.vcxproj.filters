@@ -18,5 +18,8 @@
     <ClCompile Include="bitwise1.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="pointer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
