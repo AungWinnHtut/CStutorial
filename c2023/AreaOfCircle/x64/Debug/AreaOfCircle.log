@@ -1,0 +1,4 @@
+﻿  area.cpp
+E:\CStutorial\c2023\AreaOfCircle\area.cpp(22,7): warning C4101: 'ca': unreferenced local variable
+E:\CStutorial\c2023\AreaOfCircle\area.cpp(27): warning C4717: 'funa': recursive on all control paths, function will cause runtime stack overflow
+  AreaOfCircle.vcxproj -> E:\CStutorial\c2023\AreaOfCircle\x64\Debug\AreaOfCircle.exe

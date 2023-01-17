@@ -1,0 +1,2 @@
+#!/bin/bash
+cp /home/ubuntu/html/*.html /var/www/html/*.html

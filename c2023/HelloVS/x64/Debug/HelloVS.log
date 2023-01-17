@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\CStutorial\c2023\HelloVS\Source.cpp(15,21): warning C4305: 'initializing': truncation from 'double' to 'float'
+  HelloVS.vcxproj -> E:\CStutorial\c2023\HelloVS\x64\Debug\HelloVS.exe
