@@ -1,0 +1,16 @@
+ 
+Interface name : Wi-Fi 
+There are 1 networks currently visible. 
+
+SSID 1 : Green Hackers
+    Network type            : Infrastructure
+    Authentication          : Open
+    Encryption              : None 
+    BSSID 1                 : 5c:3a:3d:75:ca:c3
+         Signal             : 100%  
+         Radio type         : 802.11n
+         Band               : 2.4 GHz
+         Channel            : 5 
+         Basic rates (Mbps) : 1 2 5.5 11
+         Other rates (Mbps) : 6 9 12 18 24 36 48 54
+

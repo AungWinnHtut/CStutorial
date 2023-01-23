@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <conio.h>
 
-int strlen_k(const char* str)
+int strlen_k(const char *str)
 {
     int count = 0;
     while (str[count] != '\0' && str[count] != -52)
@@ -11,7 +11,7 @@ int strlen_k(const char* str)
     return count;
 }
 
-void strcpy_k(char* destination, const char* source)
+void strcpy_k(char *destination, const char *source)
 {
     int count = 0;
     while (source[count] != '\0' && source[count] != -52)
@@ -21,7 +21,7 @@ void strcpy_k(char* destination, const char* source)
     }
 }
 
-int strcmp_k(const char* str1, const char* str2)
+int strcmp_k(const char *str1, const char *str2)
 {
 
     int index = 0;
@@ -53,7 +53,7 @@ int strcmp_k(const char* str1, const char* str2)
 // 1 - strncpy
 // 2 - strncmp
 
-void strcat_k(char* destination, const char* source)
+void strcat_k(char *destination, const char *source)
 {
     int dl = strlen_k(destination);
     int sl = strlen_k(source);
@@ -63,7 +63,7 @@ void strcat_k(char* destination, const char* source)
     }
 }
 
-char* gets_k(char* str, int buffer_size)
+char *gets_k(char *str, int buffer_size)
 {
     char ch = '\0';
     int i = 0;
@@ -82,7 +82,7 @@ char* gets_k(char* str, int buffer_size)
     return str;
 }
 
-void left_trim_k(char* t_arr, const char* str, int count)
+void left_trim_k(char *t_arr, const char *str, int count)
 {
     int i = 0;
     while (str[i] == ' ')
@@ -95,11 +95,13 @@ void left_trim_k(char* t_arr, const char* str, int count)
     }
 }
 
-void split_k(char* line, char* command, const char* str,const char ch, int count)
+void split_k(char *line, char *command, const char *str, const char ch, int count)
 {
     int s_index = 0;
-    char buffer[100] = { "\0" };
-    while (str[s_index++] != ch) {}
+    char buffer[100] = {"\0"};
+    while (str[s_index++] != ch)
+    {
+    }
     for (int k = 0; k < s_index; k++)
     {
         line[k] = str[k];
@@ -111,13 +113,13 @@ void split_k(char* line, char* command, const char* str,const char ch, int count
     left_trim_k(command, buffer, strlen_k(buffer));
 }
 
-int s2i_k(const char* line, int count)
+int s2i_k(const char *line, int count)
 {
     int result = 0;
     int temp = -1;
     for (int i = 0; i < count - 1; i++)
     {
-        //temp = c2i_k(line[count  - i]);
+        // temp = c2i_k(line[count  - i]);
         temp = c2i_k(*(line + count - 2 - i));
         if (temp == -1)
         {
@@ -140,7 +142,7 @@ int c2i_k(char c)
     }
     else
     {
-        //printf("c2i error! %c is not an integer!", c);
+        // printf("c2i error! %c is not an integer!", c);
         return -1;
     }
 }
@@ -156,7 +158,8 @@ int pow_k(int base, int exp)
     {
         return base;
     }
-    else {
+    else
+    {
         for (int i = 1; i < exp; i++)
         {
             result *= base;
@@ -165,7 +168,7 @@ int pow_k(int base, int exp)
     return result;
 }
 
-void clear_str_k(char* str, int count)
+void clear_str_k(char *str, int count)
 {
     for (int i = 0; i < count; i++)
     {

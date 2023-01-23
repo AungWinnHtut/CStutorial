@@ -14,7 +14,7 @@ def get_ssids():
     # Split the output by newline
     output = output.split("\n")
 
-    # print(output)
+    print(output)
 
     # Initialize an empty list to store the SSIDs
     ssids = []
@@ -44,12 +44,12 @@ def checkPower():
     print(ssids2)
 
     for ssid in ssids2:
-        if ssid == 'bluephoenix':
+        if ssid == 'CLASS-1D12':
             # "CLASS-1D12"
             # print("Power is ON")
             current_status = 1
 
-    print('cs', current_status)
+    # print('cs', current_status)
     if status != current_status:
         status = current_status
         if status == 1:
@@ -61,7 +61,7 @@ def checkPower():
 
 
 while 1:
-    subprocess.run("netsh interface set interface name=Wi-Fi admin=disabled")
-    subprocess.run("netsh interface set interface name=Wi-Fi admin=enabled")
+    # subprocess.run("netsh interface set interface name=Wi-Fi admin=disabled")
+    # subprocess.run("netsh interface set interface name=Wi-Fi admin=enabled")
     time.sleep(10)
     checkPower()
