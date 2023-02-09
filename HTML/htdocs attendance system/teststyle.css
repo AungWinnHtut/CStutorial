@@ -1,0 +1,51 @@
+body{
+}
+
+h1{
+
+	text-align: center;
+	color: black;
+
+}
+#menu{
+	width: 900px;
+	height: 70px;
+	margin: auto;
+}
+
+li{
+	float: left;
+	list-style: none;	}
+
+ul li
+a{
+	background: #555;
+	padding: 10px 15px;
+	color: #fff;
+	border-radius: 5px;
+	margin-right: 10px;
+	border: none;
+	text-decoration: none;
+}
+
+
+ul ul{
+	visibility: hidden;
+	position:absolutes ;
+}
+
+ul li:hover ul{
+	visibility:visible ;
+
+}
+ul ul li{
+	list-style:none;	
+}
+
+#sub{
+
+	text-align: center;
+	padding: 0;
+	flex-direction: column;
+	height: 100px;
+}

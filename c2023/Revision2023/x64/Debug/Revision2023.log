@@ -1,0 +1,4 @@
+﻿  Source1.cpp
+E:\CStutorial\c2023\Revision2023\Source1.cpp(9,33): warning C4305: 'argument': truncation from 'double' to 'float'
+E:\CStutorial\c2023\Revision2023\Source1.cpp(17,15): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  Revision2023.vcxproj -> E:\CStutorial\c2023\Revision2023\x64\Debug\Revision2023.exe

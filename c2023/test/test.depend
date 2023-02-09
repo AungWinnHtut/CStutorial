@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1675752474 source:e:\cstutorial\c2023\test\main.c
+	<stdio.h>
+	<stdlib.h>
+
