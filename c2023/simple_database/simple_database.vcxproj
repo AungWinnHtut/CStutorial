@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d6d3a26b-c08e-4a65-80d9-cb0b6d3fbb7f}</ProjectGuid>
-    <RootNamespace>Revision2023</RootNamespace>
+    <ProjectGuid>{ecf8e592-6e50-48a0-aad7-236f78510898}</ProjectGuid>
+    <RootNamespace>simpledatabase</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,11 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="basicio.cpp" />
-    <ClCompile Include="asciitable.cpp" />
-    <ClCompile Include="keytoshow.cpp" />
-    <ClCompile Include="function.cpp" />
-    <ClCompile Include="array.cpp" />
+    <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
