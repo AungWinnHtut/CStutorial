@@ -8,9 +8,20 @@ struct iotNode {
 	struct iotNode* nextPtr;
 };
 void instruction();
-void append(struct iotNode** sPtr, int id, const char* key);
 int isEmpty(struct iotNode* sPtr);
 void printList(struct iotNode* currentPtr);
+int length(struct iotNode* sPtr);
+void append(struct iotNode** sPtr, int id, const char* key);
+// TODO
+
+int deleteEnd(struct iotNode** sPtr);
+void insertFirst(struct iotNode** sPtr, int id, const char* key);
+int deleteFirst(struct iotNode** sPtr);
+struct iotNode* find(struct iotNode* currentPtr, int id);
+struct iotNode* find(struct iotNode* currentPtr, const char* apikey);
+int deletefun(int id);
+int deletefun(const char* apikey);
+// End of TODO
 
 int main()
 {	
@@ -43,6 +54,18 @@ int main()
 		printf("Valid List\n");
 	}
 	printList(DSptr);
+	printf("The List contains %d data\n", length(DSptr));
+
+	struct iotNode* foundPtr = NULL;
+	foundPtr = find(DSptr, "key200");
+	if (foundPtr != NULL)
+	{
+		printf("We found it!\n");
+		printf("id=%d\tapikey=%s\n\n", foundPtr->id, foundPtr->api_key);
+	}
+	else {
+		printf("We could't find it!\n\n");
+	}
 
 	return 0;
 }
@@ -54,8 +77,7 @@ void instruction()
 	printf("\n");
 	printf("\n");
 	printf("\n");
-	printf("0-Exit\n");
-	
+	printf("0-Exit\n");	
 }
 
 void append(struct iotNode **sPtr,int id,const char* key)
@@ -90,7 +112,6 @@ void append(struct iotNode **sPtr,int id,const char* key)
 	else {
 		printf("IoT device id=%d fail to insert data", id);
 	}
-
 }
 
 int isEmpty(struct iotNode *sPtr)
@@ -114,5 +135,69 @@ void printList(struct iotNode* currentPtr)
 			currentPtr = currentPtr->nextPtr;
 		}
 		printf("--- List END ---\n\n");
+	}
+}
+
+int length(struct iotNode* currentPtr)
+{
+	int count = 0;
+	if (isEmpty(currentPtr))
+	{
+		return 0;
+	}
+	else {
+		
+		while (currentPtr != NULL)
+		{
+			count++;
+			currentPtr = currentPtr->nextPtr; //Next block
+		}
+		return count;
+	}
+}
+
+struct iotNode* find(struct iotNode* currentPtr, int id)
+{
+	int count = 0;
+	if (isEmpty(currentPtr))
+	{
+		return NULL;
+	}
+	else {
+
+		while (currentPtr != NULL)
+		{
+			if (id == currentPtr->id)
+			{
+				return currentPtr;
+			}
+			else {
+				currentPtr = currentPtr->nextPtr; //Next block
+			}			
+		}		
+		return NULL;
+	}
+}
+
+struct iotNode* find(struct iotNode* currentPtr,const char* apikey)
+{
+	int count = 0;
+	if (isEmpty(currentPtr))
+	{
+		return NULL;
+	}
+	else {
+
+		while(currentPtr != NULL)
+		{
+			if (!strcmp(currentPtr->api_key,apikey))
+			{
+				return currentPtr;
+			}
+			else {
+				currentPtr = currentPtr->nextPtr; //Next block
+			}
+		}
+		return NULL;
 	}
 }

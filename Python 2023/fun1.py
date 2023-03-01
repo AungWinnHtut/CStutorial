@@ -1,3 +1,26 @@
+
+# Import all
+import pymysql
+import os
+
+
+def insert_db(conn, tb_name, columns, values):
+    try:
+        cursor = conn.cursor()
+        # sql = "INSERT INTO area_tb (l,w,a) VALUES (%s,%s,%s)"
+        sql = "INSERT INTO {0} ({1}) VALUES ({2})".format(
+            tb_name,  # 0
+            ", ".join(columns),  # 1
+            ", ".join(["%s"] * len(columns))  # 2
+        )
+        cursor.execute(sql, values)
+        conn.commit()
+        print('Data insert complete')
+    except Exception as e:
+        conn.rollback()
+        print('Error inserting data: ', e)
+
+
 def greeting(name):
     print("Hello " + name)
     print()
@@ -7,6 +30,11 @@ def greeting(name):
 def area(l, w):
     a = l * w
     print('area = ', a)
+    columns = ('l', 'w', 'a')
+    values = (l, w, a)
+    insert_db(conn, 'area_tb', columns, values)
+    os.system('pause')
+    os.system('cls')
     print()
     print()
 
@@ -14,12 +42,26 @@ def area(l, w):
 def tempF2C(tf):
     tc = ((5/9)*tf) - 32
     print('tc = ', tc)
+    columns = ('tf', 'tc')
+    values = (tf, tc)
+    insert_db(conn, 'temp_tb', columns, values)
+    os.system('pause')
+    os.system('cls')
     print()
     print()
 
 
 def square(n):
-    return n*n
+    square_n = n*n
+
+    columns = ('n', 'square_n')
+    values = (n, square_n)
+    insert_db(conn, 'square_tb', columns, values)
+    os.system('pause')
+    os.system('cls')
+    print()
+    print()
+    return (square_n)
 
 
 def menu():
@@ -54,6 +96,26 @@ def menu():
 
 
 # Program Start here!
-name = input('What is your name: ')
-greeting(name)
+
+# test code ends here
+# name = input('What is your name: ')
+# greeting(name)
+
+server = 'localhost'
+admin = 'root'
+pwd = ''
+dbname = 'calculation_db'
+
+try:
+    conn = pymysql.connect(host=server,
+                           user=admin,
+                           password=pwd,
+                           database=dbname
+                           )
+    print('Successfully connected to {} database'.format(dbname))
+except Exception as e:
+    print('Cannot connect ot' + dbname + 'database')
+
+os.system('pause')
+os.system('cls')
 menu()
