@@ -1,3 +1,2 @@
 ﻿  Source.cpp
-E:\CStutorial\c2023\HelloWorld2003\Source.cpp(13,13): warning C4305: '=': truncation from 'double' to 'float'
   HelloWorld2003.vcxproj -> E:\CStutorial\c2023\HelloWorld2003\x64\Debug\HelloWorld2003.exe
