@@ -12,15 +12,18 @@ int isEmpty(struct iotNode* sPtr);
 void printList(struct iotNode* currentPtr);
 int length(struct iotNode* sPtr);
 void append(struct iotNode** sPtr, int id, const char* key);
-// TODO
-
 int deleteEnd(struct iotNode** sPtr);
-void insertFirst(struct iotNode** sPtr, int id, const char* key);
-int deleteFirst(struct iotNode** sPtr);
 struct iotNode* find(struct iotNode* currentPtr, int id);
 struct iotNode* find(struct iotNode* currentPtr, const char* apikey);
-int deletefun(int id);
-int deletefun(const char* apikey);
+int deleteFirst(struct iotNode** sPtr);
+// TODO
+
+
+void insertFirst(struct iotNode** sPtr, int id, const char* key);
+
+
+int deletefun(struct iotNode** sPtr, int id);
+int deletefun(struct iotNode** sPtr, const char* apikey);
 // End of TODO
 
 int main()
@@ -35,7 +38,14 @@ int main()
 	{
 		printf("Valid List\n");
 	}
-	for (int i = 0; i < 100; i++)
+	if (deleteEnd(&DSptr))
+	{
+		printf("Deleted!\n");
+	}
+	else {
+		printf("Cannot Delete!\n");
+	}
+	for (int i = 0; i < 2; i++)
 	{
 		char buffer[6] = { '\0' };
 		char key[10] = { '\0'};
@@ -45,6 +55,7 @@ int main()
 		append(&DSptr, i,key);
 	}
 	printf("After inserting\n");
+
 	if (isEmpty(DSptr))
 	{
 		printf("Empty List\n");
@@ -56,6 +67,28 @@ int main()
 	printList(DSptr);
 	printf("The List contains %d data\n", length(DSptr));
 
+	if (deleteEnd(&DSptr))
+	{
+		printf("Deleted!\n");
+	}
+	else {
+		printf("Cannot Delete!\n");
+	}
+
+	printList(DSptr);
+	printf("The List contains %d data\n", length(DSptr));
+
+	if (deletefun(&DSptr,0))
+	{
+		printf("Deleted!\n");
+	}
+	else {
+		printf("Cannot Delete!\n");
+	}
+
+	printList(DSptr);
+	printf("The List contains %d data\n", length(DSptr));
+	/*
 	struct iotNode* foundPtr = NULL;
 	foundPtr = find(DSptr, "key200");
 	if (foundPtr != NULL)
@@ -66,6 +99,8 @@ int main()
 	else {
 		printf("We could't find it!\n\n");
 	}
+	*/
+
 
 	return 0;
 }
@@ -200,4 +235,103 @@ struct iotNode* find(struct iotNode* currentPtr,const char* apikey)
 		}
 		return NULL;
 	}
+}
+
+int  deleteEnd(struct iotNode** sPtr)
+{
+	// DMA create
+	if (isEmpty(*sPtr))
+	{
+		printf("Empty DS, cannot delete!\n");
+		return 0;
+	}
+		// Starting point 
+		struct iotNode* previusPtr = NULL;
+		struct iotNode* currentPtr = *sPtr;
+
+		//check if only one data? first data?
+		if (currentPtr->nextPtr == NULL)
+		{
+			*sPtr = NULL;  //Deleted first one
+			free(currentPtr);
+			return 1;
+		}
+
+		while (currentPtr->nextPtr != NULL) //Not end and 
+		{
+			previusPtr = currentPtr;
+			currentPtr = currentPtr->nextPtr;
+		}
+		//delete currentPtr
+		//previusPtr become last
+		previusPtr->nextPtr = NULL;
+		free(currentPtr);
+		return 1;
+}
+
+
+int  deleteFirst(struct iotNode** sPtr)
+{
+	// DMA create
+	if (isEmpty(*sPtr))
+	{
+		printf("Empty DS, cannot delete!\n");
+		return 0;
+	}
+	// Starting point 
+	struct iotNode* previusPtr = NULL;
+	struct iotNode* currentPtr = *sPtr;
+
+	//check if only one data? first data?
+	if (currentPtr->nextPtr == NULL)
+	{
+		*sPtr = NULL;  //Deleted first one
+		free(currentPtr);
+		return 1;
+	}
+
+
+	previusPtr = currentPtr;
+	currentPtr = currentPtr->nextPtr;
+
+	*sPtr = currentPtr;
+	free(previusPtr);	
+
+	return 1;
+}
+
+int deletefun(struct iotNode** sPtr, int id)
+{
+	int count = 0;
+	struct iotNode* currentPtr = *sPtr;
+	struct iotNode* previusPtr = NULL;
+	if (isEmpty(currentPtr))
+	{
+		return 0;
+	}
+	if ((currentPtr->nextPtr == NULL)&& (id == currentPtr->id))
+	{
+		*sPtr = NULL;
+		free(currentPtr);
+		return 1;
+	}
+
+		while (currentPtr->nextPtr != NULL)
+		{
+			if (id == currentPtr->id)
+			{
+				//found and delete	
+						
+					previusPtr->nextPtr = currentPtr->nextPtr;
+					free(currentPtr);
+					return 1;		
+				
+			}
+			else {
+				previusPtr = currentPtr;
+				currentPtr = currentPtr->nextPtr; //Next block
+			}
+		}
+		return 0;
+	
 }
