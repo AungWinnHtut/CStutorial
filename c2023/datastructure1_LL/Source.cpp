@@ -16,14 +16,12 @@ int deleteEnd(struct iotNode** sPtr);
 struct iotNode* find(struct iotNode* currentPtr, int id);
 struct iotNode* find(struct iotNode* currentPtr, const char* apikey);
 int deleteFirst(struct iotNode** sPtr);
+int deletefun(struct iotNode** sPtr, int id);
+int deletefun(struct iotNode** sPtr, const char* apikey);
+void insertFirst(struct iotNode** sPtr, int id, const char* key);
 // TODO
 
 
-void insertFirst(struct iotNode** sPtr, int id, const char* key);
-
-
-int deletefun(struct iotNode** sPtr, int id);
-int deletefun(struct iotNode** sPtr, const char* apikey);
 // End of TODO
 
 int main()
@@ -45,7 +43,7 @@ int main()
 	else {
 		printf("Cannot Delete!\n");
 	}
-	for (int i = 0; i < 2; i++)
+	for (int i = 0; i <3; i++)
 	{
 		char buffer[6] = { '\0' };
 		char key[10] = { '\0'};
@@ -78,7 +76,7 @@ int main()
 	printList(DSptr);
 	printf("The List contains %d data\n", length(DSptr));
 
-	if (deletefun(&DSptr,0))
+	if (deletefun(&DSptr,"key0"))
 	{
 		printf("Deleted!\n");
 	}
@@ -86,6 +84,9 @@ int main()
 		printf("Cannot Delete!\n");
 	}
 
+	printList(DSptr);
+	printf("The List contains %d data\n", length(DSptr));
+	insertFirst(&DSptr, 123, "key123");
 	printList(DSptr);
 	printf("The List contains %d data\n", length(DSptr));
 	/*
@@ -142,6 +143,31 @@ void append(struct iotNode **sPtr,int id,const char* key)
 		}
 		else {
 			currentPtr->nextPtr = newPtr;
+		}
+	}
+	else {
+		printf("IoT device id=%d fail to insert data", id);
+	}
+}
+void insertFirst(struct iotNode** sPtr, int id, const char* key)
+{
+	// DMA create
+	struct iotNode* newPtr = (iotNode*)malloc(sizeof(iotNode)); //void * must be casted to (iotNode *)
+	if (newPtr != NULL)
+	{
+		//prepare data in DMA to insert
+		newPtr->id = id;
+		strcpy_s(newPtr->api_key, key);
+		newPtr->nextPtr = NULL;
+		
+		//if the ds is empty then previus pointer is still NULL (because never enter into while loop)
+		if (*sPtr == NULL)
+		{
+			*sPtr = newPtr;			
+		}
+		else {			
+			newPtr->nextPtr = *sPtr; // connect to old start
+			*sPtr = newPtr;			      // new start
 		}
 	}
 	else {
@@ -222,7 +248,6 @@ struct iotNode* find(struct iotNode* currentPtr,const char* apikey)
 		return NULL;
 	}
 	else {
-
 		while(currentPtr != NULL)
 		{
 			if (!strcmp(currentPtr->api_key,apikey))
@@ -289,8 +314,6 @@ int  deleteFirst(struct iotNode** sPtr)
 		free(currentPtr);
 		return 1;
 	}
-
-
 	previusPtr = currentPtr;
 	currentPtr = currentPtr->nextPtr;
 
@@ -299,39 +322,128 @@ int  deleteFirst(struct iotNode** sPtr)
 
 	return 1;
 }
+//1. check if DS exist? if not exit with fail to del
+//2. check if found at first block, 
+////(if only one block then no more data - NULL, 
+////else start pointer point to next block) 
+////then delete it, make start null and exit with success
+//3. not found but only one DS, then exit with fail to del
+//4. if two and more data exists then do loop
+///////////////////////////////////////////////////////
+///////////// Do Loop //////////
+// 1. move to next block
+// 2. check if not found, and if not end then go to step 1
+// 3. found
+//// 3.a. found at end, previus will now end
+//// 3.b. found at middle, duty change
 
 int deletefun(struct iotNode** sPtr, int id)
 {
 	int count = 0;
 	struct iotNode* currentPtr = *sPtr;
 	struct iotNode* previusPtr = NULL;
-	if (isEmpty(currentPtr))
+	if (isEmpty(currentPtr)) //DS exist?
 	{
 		return 0;
 	}
-	if ((currentPtr->nextPtr == NULL)&& (id == currentPtr->id))
+	else if  (id == currentPtr->id) //found on first one
 	{
-		*sPtr = NULL;
+		if (currentPtr->nextPtr == NULL)
+		{
+			*sPtr = NULL; //no more data
+		}
+		else
+		{
+			*sPtr = currentPtr->nextPtr;
+		}
+		
+		free(currentPtr);
+		return 1;
+	}	
+	else if (currentPtr->nextPtr == NULL) //if only one block and not found
+	{
+		return 0;
+	}
+
+	//at least second one
+	do 
+	{		
+		previusPtr = currentPtr;
+		currentPtr = currentPtr->nextPtr; //Next block		
+		
+		if (id == currentPtr->id ) //found
+		{
+			//if end?
+			if (currentPtr->nextPtr == NULL)
+			{
+				previusPtr->nextPtr = NULL; //new end
+			}
+			else {
+				//found in the middle 					
+				previusPtr->nextPtr = currentPtr->nextPtr;			
+			}
+			free(currentPtr); //delete it 
+			return 1;		      //success flag				
+		}
+		//if not found, then go to next block -
+		
+	} while (currentPtr->nextPtr != NULL);
+	//if reach here, not found totally
+	return 0;
+}
+
+int deletefun(struct iotNode** sPtr, const char* api_key)
+{
+	int count = 0;
+	struct iotNode* currentPtr = *sPtr;
+	struct iotNode* previusPtr = NULL;
+	if (isEmpty(currentPtr)) //DS exist?
+	{
+		return 0;
+	}
+	
+	else if (!strcmp(api_key, currentPtr->api_key)) //found on first one
+	{
+		if (currentPtr->nextPtr == NULL)
+		{
+			*sPtr = NULL; //no more data
+		}
+		else
+		{
+			*sPtr = currentPtr->nextPtr;
+		}
+
 		free(currentPtr);
 		return 1;
 	}
+	else if (currentPtr->nextPtr == NULL) //if only one block and not found
+	{
+		return 0;
+	}
 
-		while (currentPtr->nextPtr != NULL)
+	//at least second one
+	do
+	{
+		previusPtr = currentPtr;
+		currentPtr = currentPtr->nextPtr; //Next block		
+
+		if (!strcmp(api_key, currentPtr->api_key)) //found
 		{
-			if (id == currentPtr->id)
+			//if end?
+			if (currentPtr->nextPtr == NULL)
 			{
-				//found and delete	
-						
-					previusPtr->nextPtr = currentPtr->nextPtr;
-					free(currentPtr);
-					return 1;		
-				
+				previusPtr->nextPtr = NULL; //new end
 			}
 			else {
-				previusPtr = currentPtr;
-				currentPtr = currentPtr->nextPtr; //Next block
+				//found in the middle 					
+				previusPtr->nextPtr = currentPtr->nextPtr;
 			}
+			free(currentPtr); //delete it 
+			return 1;		      //success flag				
 		}
-		return 0;
-	
+		//if not found, then go to next block -
+
+	} while (currentPtr->nextPtr != NULL);
+	//if reach here, not found totally
+	return 0;
 }

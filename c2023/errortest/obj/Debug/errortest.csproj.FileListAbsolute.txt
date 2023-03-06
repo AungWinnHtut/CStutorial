@@ -1,0 +1,11 @@
+E:\CStutorial\c2023\errortest\bin\Debug\errortest.exe.config
+E:\CStutorial\c2023\errortest\bin\Debug\errortest.exe
+E:\CStutorial\c2023\errortest\bin\Debug\errortest.pdb
+E:\CStutorial\c2023\errortest\obj\Debug\errortest.csproj.AssemblyReference.cache
+E:\CStutorial\c2023\errortest\obj\Debug\errortest.csproj.SuggestedBindingRedirects.cache
+E:\CStutorial\c2023\errortest\obj\Debug\errortest.Form1.resources
+E:\CStutorial\c2023\errortest\obj\Debug\errortest.Properties.Resources.resources
+E:\CStutorial\c2023\errortest\obj\Debug\errortest.csproj.GenerateResource.cache
+E:\CStutorial\c2023\errortest\obj\Debug\errortest.csproj.CoreCompileInputs.cache
+E:\CStutorial\c2023\errortest\obj\Debug\errortest.exe
+E:\CStutorial\c2023\errortest\obj\Debug\errortest.pdb
