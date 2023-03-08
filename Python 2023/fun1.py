@@ -20,6 +20,35 @@ def insert_db(conn, tb_name, columns, values):
         conn.rollback()
         print('Error inserting data: ', e)
 
+# Function to select data from a table
+
+
+def select_data(conn, table_name, columns="*", condition=None):
+    try:
+        cursor = conn.cursor()
+        if condition is None:
+            # query = "SELECT * FROM area_tb"
+            query = "SELECT {0} FROM {1}".format(
+                columns,  # 0
+                table_name
+            )
+            cursor.execute(query)
+        else:
+            query = "SELECT {0} FROM {1} WHERE {2}".format(
+                columns,  # 0
+                table_name,
+                condition
+            )
+            cursor.execute(query)
+
+        result = cursor.fetchall()
+        # print(data)
+        return result
+
+    except Exception as e:
+        conn.rollback()
+        print("Error selecting data: ", e)
+
 
 def greeting(name):
     print("Hello " + name)
@@ -65,16 +94,19 @@ def square(n):
 
 
 def menu():
+
     while True:
         print('Menu')
         print('=====')
         print('1-calculate area: ')
         print('2-calculate temperature: ')
         print('3-calculate square: ')
+        print('4-show calculated area data')
         print('0-Exit')
         print()
 
         ans = input('Please choose (0,1,2,3): ')
+
         if (ans == '1'):
             l = eval(input('Please enter L: '))
             w = eval(input('Please enter W: '))
@@ -90,6 +122,15 @@ def menu():
             print('square = ', s)
             print()
             print()
+
+        elif (ans == '4'):
+            result = select_data(conn, "area_tb", "*", None)
+            print(' ID             L              W               A')
+            for row in result:
+                print('{0:3d}    {1:10.2f}     {2:10.2f}      {3:10.2f}'.format(
+                    row[0], row[1], row[2], row[3]))
+
+            os.system('pause')
 
         elif (ans == '0'):
             exit()
@@ -112,10 +153,13 @@ try:
                            password=pwd,
                            database=dbname
                            )
-    print('Successfully connected to {} database'.format(dbname))
+
 except Exception as e:
     print('Cannot connect ot' + dbname + 'database')
+    os.system('pause')
 
-os.system('pause')
+
 os.system('cls')
+print('Successfully connected to {} database'.format(dbname))
+print()
 menu()

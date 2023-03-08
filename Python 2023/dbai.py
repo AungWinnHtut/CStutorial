@@ -1,4 +1,7 @@
+import pymysql
 # Function to create a connection to the database
+
+
 def connect_to_database(db_name):
     try:
         conn = pymysql.connect(host='localhost',
