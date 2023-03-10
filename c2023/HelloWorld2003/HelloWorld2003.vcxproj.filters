@@ -21,10 +21,10 @@
     <ClCompile Include="area.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="gold.cpp">
+    <ClCompile Include="check_int.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="lucky.cpp">
+    <ClCompile Include="recur.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

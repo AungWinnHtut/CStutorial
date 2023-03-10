@@ -1,2 +1,3 @@
-﻿  Source.cpp
+﻿  area.cpp
+E:\CStutorial\c2023\HelloWorld2003\area.cpp(81,18): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
   HelloWorld2003.vcxproj -> E:\CStutorial\c2023\HelloWorld2003\x64\Debug\HelloWorld2003.exe

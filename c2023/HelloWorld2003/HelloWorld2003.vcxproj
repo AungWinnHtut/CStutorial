@@ -129,8 +129,8 @@
   <ItemGroup>
     <ClCompile Include="intro.cpp" />
     <ClCompile Include="area.cpp" />
-    <ClCompile Include="gold.cpp" />
-    <ClCompile Include="lucky.cpp" />
+    <ClCompile Include="check_int.cpp" />
+    <ClCompile Include="recur.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
