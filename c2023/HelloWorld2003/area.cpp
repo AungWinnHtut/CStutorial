@@ -40,7 +40,7 @@ int main()
 
 		}
 		printf("\n\n");
-	} while (ans != 0);
+	} while (ans != 0); //until user choice to exit
 	
 	
 	return 0;

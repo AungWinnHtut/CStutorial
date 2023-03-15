@@ -14,6 +14,7 @@ typedef struct iotNode {
 
 int push(iotNODE** Top, iotDATA d);
 void print(iotNODE* currentPtr);
+struct iotData pop(iotNODE** Top);
 
 int main()
 {
@@ -30,9 +31,22 @@ int main()
 	k1.id = 3;
 	strcpy_s(k1.key, 10, "key3");
 	push(&T, k1);
+	print(T);
+
+	k1=pop(&T);
+	printf("id=%d key=%s \n", k1.id, k1.key);
+	print(T);
+
+	k1 = pop(&T);
+	printf("id=%d key=%s \n", k1.id, k1.key);
+	print(T);
+
+	k1 = pop(&T);
+	printf("id=%d key=%s \n", k1.id, k1.key);
+	print(T);
 	
 
-	print(T);
+
 	return 0;
 }
 
@@ -58,15 +72,35 @@ void print(iotNODE* currentPtr)
 {
 	if (currentPtr == NULL)
 	{
-		printf("empty stack\n");
+		printf("empty stack, no data to show\n");
 	}
 	else {
 		printf("Stack\n");
 		printf("=====\n");
 		while (currentPtr != NULL)
 		{
-			printf("id=%10d\tkey=%10s\n", currentPtr->data.id, currentPtr->data.key);
+			printf("id=%d\tkey=%s\n", currentPtr->data.id, currentPtr->data.key);
 			currentPtr = currentPtr->nextPtr;
+		}
+	}
+}
+
+struct iotData pop(iotNODE** Top)
+{
+	struct iotData data = {};
+	if (*Top != NULL)
+	{
+		//if pass
+		iotNode* temp = *Top;
+		data = (*Top)->data;
+		*Top = temp->nextPtr;
+		free(temp);
+		return data; //success
+	}
+	else {
+		printf("empty stack, can't pop\n");
+		{
+			return data;
 		}
 	}
 }
