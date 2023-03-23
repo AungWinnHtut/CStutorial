@@ -15,7 +15,10 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Source.cpp">
+    <ClCompile Include="area.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="freq.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

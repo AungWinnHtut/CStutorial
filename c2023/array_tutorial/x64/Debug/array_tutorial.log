@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets(5652,5): warning MSB3061: Unable to delete file "E:\CStutorial\c2023\array_tutorial\x64\Debug\array_tutorial.exe". Access to the path 'E:\CStutorial\c2023\array_tutorial\x64\Debug\array_tutorial.exe' is denied.
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppClean.targets(77,5): warning : Access to the path 'e:\cstutorial\c2023\array_tutorial\x64\debug\array_tutorial.exe' is denied.
+  Source.cpp
+E:\CStutorial\c2023\array_tutorial\Source.cpp(34,12): warning C4101: 'mycv': unreferenced local variable
+LINK : fatal error LNK1104: cannot open file 'E:\CStutorial\c2023\array_tutorial\x64\Debug\array_tutorial.exe'

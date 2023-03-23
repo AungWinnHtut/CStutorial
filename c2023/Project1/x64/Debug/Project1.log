@@ -1,0 +1,3 @@
+﻿  Source.cpp
+E:\CStutorial\c2023\Project1\Source.cpp(34,12): warning C4101: 'mycv': unreferenced local variable
+  Project1.vcxproj -> E:\CStutorial\c2023\Project1\x64\Debug\Project1.exe
