@@ -1,0 +1,2 @@
+﻿  Source.cpp
+LINK : fatal error LNK1104: cannot open file 'E:\CStutorial\c2023\FileIO2023\x64\Debug\FileIO2023.exe'
