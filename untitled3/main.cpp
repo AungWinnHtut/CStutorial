@@ -1,15 +1,17 @@
 #include <stdio.h>
+#include<iostream>
 #include <string.h>
 void changA(int *a);
-
+using namespace std;
 int main() {
 
     int ia[3]={1,2,3};
     char ca[3]={'a','b','c'};
 
-    printf("%d\n",*ia);     //ia[0]
-    printf("%d\n",*(ia+1)); //ia[1]
-    printf("%d\n",*(ia+3)); //ia[2]
+    for(int i : ia)
+    {
+        cout<<i<<endl;
+    }
     return 0;
 }
 
